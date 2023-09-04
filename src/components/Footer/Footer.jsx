@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-neutral text-neutral-content">
             <div>
                 <Image src="/images/hsn.png" alt="hsn photo" width={126} height={126} className="w-auto h-auto" />
-                <p className="">كل الحقوق محفوظة  لـ  2023 <span> ©</span> </p>
+                <p className="">كل الحقوق محفوظة    2023 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p> لمزيد من التفاصيل : </p>
                     <p className=""><a className="text-secondary " href="#" target="_blank"> MHD Hasn AL-Khalil Tadmori </a></p>
