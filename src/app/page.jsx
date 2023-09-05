@@ -8,9 +8,9 @@ export default function Home() {
     <div className="container  hero lg:min-h-screen text-center lg:text-start ">
       <div className="hero-content flex-col lg:flex-row gap-8">
         <div className=''>
-          <h1 className=" font-bold uppercase  text-transparent text-7xl bg-clip-text bg-gradient-to-b from-success to-white ">{title}</h1>
+          <h1 className=" font-bold uppercase  text-transparent text-7xl bg-clip-text bg-gradient-to-b from-success to-white  leading-snug ">{title}</h1>
 
-          <p className="py-10 ">{SubTitle}</p>
+          <p className="py-10  text-xl">{SubTitle}</p>
           <div className='flex align-middle justify-center lg:block'>
             <button className="btn btn-success sm:mx-auto" >ابدأ  من هنا </button>
           </div>

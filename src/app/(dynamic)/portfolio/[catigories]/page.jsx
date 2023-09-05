@@ -1,10 +1,10 @@
-import React from 'react'
 
 const Category = () => {
+    const title = 'الصفحة الخاصة بكل جامعة '
     return (
-        <div>
-            Category
-        </div>
+        <section className="h-screen">
+            <h1> {title}</h1>
+        </section>
     )
 }
 
