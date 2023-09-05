@@ -13,7 +13,7 @@ const NavBar = () => {
 
     return (
         <>
-            <div className="navbar bg-neutral text-neutral-content" >
+            <div className="navbar bg-neutral text-neutral-content " >
 
                 <div className="navbar-start">
                     <NavBarDropDown />

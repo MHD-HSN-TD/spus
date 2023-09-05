@@ -1,13 +1,19 @@
 import Image from 'next/image'
 
 export default function Home() {
+  const SubTitle = 'الجامعات الخاصة في سوريا عبر موقعما ، يهتم الطلاب في سوريا بالبحث عن أفضل جامعة خاصة في سوريا للعام القادم 2023 بهدف التعرف على كافة الجامعات المسموح لهم بالتقدم إليها ومن ثم القدرة على الاختيار بينهما ما يتوافق مع متطلباتهم ومؤهلهم العلمي وهو ما سوف نتعرف عليه فيما يلي بالتفصيل:';
+  const title = 'الموقع الأول في سورية للجامعات السورية الخاصة'
   return (
-    <div className="container mx-auto hero min-h-screen ">
-      <div className="hero-content flex-col lg:flex-row px-14 gap-8">
+    // <div className="container lg:mx-auto hero lg:min-h-screen text-center ">
+    <div className="container  hero lg:min-h-screen text-center lg:text-start ">
+      <div className="hero-content flex-col lg:flex-row gap-8">
         <div className=''>
-          <h1 className=" font-bold uppercase  text-transparent text-7xl bg-clip-text bg-gradient-to-b from-success to-white ">best online store in the world!</h1>
-          <p className="py-10 ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi  Provident cupiditate voluptatem et in.  Provident cupiditate voluptatem et in.Provident cupiditate voluptatem et in.Provident cupiditate voluptatem et in.exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-success" >Shop Now !</button>
+          <h1 className=" font-bold uppercase  text-transparent text-7xl bg-clip-text bg-gradient-to-b from-success to-white ">{title}</h1>
+
+          <p className="py-10 ">{SubTitle}</p>
+          <div className='flex align-middle justify-center lg:block'>
+            <button className="btn btn-success sm:mx-auto" >ابدأ  من هنا </button>
+          </div>
         </div>
         <Image
           src="/images/unii.png"

@@ -10,7 +10,7 @@ const Footer = () => {
                 <p className="">كل الحقوق محفوظة    2023 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p> لمزيد من التفاصيل : </p>
-                    <p className=""><a className="text-secondary " href="#" target="_blank"> MHD Hasn AL-Khalil Tadmori </a></p>
+                    <p className=""><a className="text-gray-50 " href="https://github.com/MHD-HSN-TD" target="_blank"> MHD Hasn AL-Khalil Tadmori </a></p>
                 </div>
             </div>
             {/* //#-----links start------- */}
