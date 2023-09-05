@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Card = ({ id, name, address, phone, website }) => {
-  console.log(id);
+  // console.log(id);
   return (
     <div className="card card-side bg-secondary shadow-xl">
       <figure className="max-w-xs max-h-80 m-1">
@@ -18,15 +18,15 @@ const Card = ({ id, name, address, phone, website }) => {
             الهاتف :<span> {phone}</span>
           </p>
           <p className="py-1">
-            الموقع الالكتروني :<span> <a href="https://spus.vercel.app/" className="btn btn-ghost">{website}</a></span>
+            {/* الموقع الالكتروني :<span> <a href="https://spus.vercel.app/" className="btn btn-ghost">{website}</a></span> */}
           </p>
 
         </div>
-        <div className="card-actions justify-end">
+        {/* <div className="card-actions justify-end">
           <button className="btn btn-accent  ">
             <span className="text-white text">معلومات اضافية.</span>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

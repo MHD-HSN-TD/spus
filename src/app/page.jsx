@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 export default function Home() {
   const SubTitle = 'الجامعات الخاصة في سوريا عبر موقعما ، يهتم الطلاب في سوريا بالبحث عن أفضل جامعة خاصة في سوريا للعام القادم 2023 بهدف التعرف على كافة الجامعات المسموح لهم بالتقدم إليها ومن ثم القدرة على الاختيار بينهما ما يتوافق مع متطلباتهم ومؤهلهم العلمي وهو ما سوف نتعرف عليه فيما يلي بالتفصيل:';
@@ -12,7 +13,9 @@ export default function Home() {
 
           <p className="py-10  text-xl">{SubTitle}</p>
           <div className='flex align-middle justify-center lg:block'>
-            <button className="btn btn-success sm:mx-auto" >ابدأ  من هنا </button>
+            <Link href={'/portfolio'}>
+              <button className="btn btn-success sm:mx-auto" >ابدأ  من هنا </button>
+            </Link>
           </div>
         </div>
         <Image
