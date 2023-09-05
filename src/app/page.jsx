@@ -6,13 +6,13 @@ export default function Home() {
   const title = 'الموقع الأول في سورية للجامعات السورية الخاصة'
   return (
     // <div className="container lg:mx-auto hero lg:min-h-screen text-center ">
-    <div className="container  hero lg:min-h-screen text-center lg:text-start ">
-      <div className="hero-content flex-col lg:flex-row gap-8">
+    <div className="container  hero lg:min-h-screen text-center lg:text-start  ">
+      <div className="hero-content flex-col lg:flex-row gap-8 w-screen">
         <div className=''>
-          <h1 className=" font-bold uppercase  text-transparent text-7xl bg-clip-text bg-gradient-to-b from-success to-white  leading-snug ">{title}</h1>
+          <h1 className=" font-bold uppercase  text-transparent text-5xl bg-clip-text bg-gradient-to-b from-success to-white  leading-snug ">{title}</h1>
 
           <p className="py-10  text-xl">{SubTitle}</p>
-          <div className='flex align-middle justify-center lg:block'>
+          <div className='flex align-middle justify-center lg:block '>
             <Link href={'/portfolio'}>
               <button className="btn btn-success sm:mx-auto" >ابدأ  من هنا </button>
             </Link>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <Image
           src="/images/unii.png"
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="max-w-sm rounded-lg shadow-2xl w-screen"
           alt='hero section'
           width={400}
           height={400} />

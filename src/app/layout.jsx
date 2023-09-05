@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body className={`${alexandria.className} bg-default transition-all duration-600 p-0 m-0 `}>
+      <body className={`${alexandria.className} bg-default transition-all duration-600 p-0 m-0  `}>
         <Providers>
           <NavBar />
           {children}

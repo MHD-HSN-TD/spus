@@ -13,11 +13,13 @@ const NavBar = () => {
 
     return (
         <>
-            <div className="navbar bg-neutral text-neutral-content " >
+            <div className="navbar bg-neutral text-neutral-content  " >
 
                 <div className="navbar-start">
                     <NavBarDropDown />
-                    <Link href={'/'} className={`btn btn-ghost normal-case text-xl  `} >موقع الجامعات السورية الخاصة</Link>
+                    <Link href={'/'}
+                        className=" btn btn-ghost normal-case text-l   "
+                    >موقع الجامعات السورية الخاصة</Link>
                 </div>
                 <div>
                 </div>
