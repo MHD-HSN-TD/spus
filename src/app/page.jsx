@@ -22,8 +22,8 @@ export default function Home() {
           src="/images/unii.png"
           className="max-w-sm rounded-lg shadow-2xl w-3/4"
           alt='hero section'
-          width={400}
-          height={400} />
+          width={380}
+          height={380} />
       </div>
     </div>
   )
