@@ -7,7 +7,7 @@ export default function Home() {
   return (
     // <div className="container lg:mx-auto hero lg:min-h-screen text-center ">
     <div className="container  hero lg:min-h-screen text-center lg:text-start  ">
-      <div className="hero-content flex-col lg:flex-row gap-8 w-screen">
+      <div className="hero-content flex-col lg:flex-row gap-8 w-11/12">
         <div className=''>
           <h1 className=" font-bold uppercase  text-transparent text-5xl bg-clip-text bg-gradient-to-b from-success to-white  leading-snug ">{title}</h1>
 
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <Image
           src="/images/unii.png"
-          className="max-w-sm rounded-lg shadow-2xl w-screen"
+          className="max-w-sm rounded-lg shadow-2xl w-3/4"
           alt='hero section'
           width={400}
           height={400} />
