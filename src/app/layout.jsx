@@ -1,4 +1,6 @@
 import { Alexandria, Cairo } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
+
 import './globals.css'
 
 import { Providers } from '@/components/Provider/Provider'
@@ -21,8 +23,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <NavBar />
           {children}
-          {/* <div className='h-screen'>
-          </div> */}
+          <Analytics />
           <Footer />
         </Providers>
       </body>
