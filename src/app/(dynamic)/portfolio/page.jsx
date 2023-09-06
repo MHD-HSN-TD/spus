@@ -4,11 +4,11 @@ import Link from "next/link"
 
 
 const Portfolio = () => {
-    // console.log(unv)
+    // console.log('ss', image)
     return (
         <div className="  ">
-            <div className="w-100  bg-accent py-6 px-5 text-lg">الجامعات الخاصة في سوريا لعام 2023</div>
-            <div className="grid gap-10 lg:grid-cols-2 py-10 m-3 0">
+            <div className="w-100  bg-accent-focus py-4 px-5 text-3xl">الجامعات الخاصة في سوريا لعام 2023</div>
+            <div className="grid gap-x-24 gap-y-10 lg:grid-cols-2 py-10 m-10 0">
                 {unv.map(el => {
                     return (
                         <Link href={`/portfolio/${el.id}`} id={el.id}>
@@ -18,7 +18,9 @@ const Portfolio = () => {
                                 address={el.address}
                                 phone={el.phone}
                                 website={el.website}
+                                image="/images/unii.png"
                             />
+                            {/* console.log('ss', image) */}
                         </Link>
                     )
                 })}
