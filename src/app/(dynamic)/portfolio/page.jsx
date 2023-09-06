@@ -2,7 +2,10 @@ import Card from "@/components/Card/Card"
 import { unv } from "@/store/univs"
 import Link from "next/link"
 
-
+export const metadata = {
+    title: ' الجامعات',
+    description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
+}
 const Portfolio = () => {
     // console.log('ss', image)
     return (

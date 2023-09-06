@@ -1,5 +1,7 @@
-import React from 'react'
-
+export const metadata = {
+    title: 'تواصل معنا',
+    description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
+}
 const Contact = () => {
     return (
         <div>
