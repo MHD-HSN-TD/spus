@@ -4,6 +4,7 @@
 import Card from "@/components/Card/Card"
 import { unv } from "@/store/univs"
 import Image from "next/image"
+import Link from "next/link"
 
 
 export async function generateMetadata({ params, searchParams }) {
@@ -31,17 +32,24 @@ const Uni = (props) => {
 
     const layoutOfUniv = unv.map(uni => (uni.id == idOfPaga) && <div className="  " key={uni.id} >
         <div className=" ">
-            <h1 className=" bg-accent-focus text-4xl p-3 ">{uni.name}</h1>
-            <section className="  m-10">
-                <Image
-                    src={'/images/uni-1.jpg'} width={1000} height={1000} className="mx-auto " />
+            {/* the header and the bach button */}
+            <div>
+                <h1 className=" bg-accent-focus text-4xl p-3 ">{uni.name}</h1>
+                <Link href={'/portfolio'} className=" btn bg-neutral m-4" >
+                    <Image src={'/images/back.png'} width={30} height={30} />
+                    <div className=""> العودة لصفحة الجامعات</div>
+                </Link>
+            </div>
 
+            {/* the img and the  overView */}
+            <section className="  m-10">
+                <Image src={'/images/uni-1.jpg'} width={1000} height={1000} className="mx-auto " />
                 <div className=" mx-10 text-2xl py-3 ">
                     <h2 className="font-bold">لمحة سريعة :</h2>
                     <p className="text-base  tracking-wide">{overView}</p>
                 </div>
-
             </section>
+
         </div>
     </div >
     )
@@ -51,24 +59,20 @@ const Uni = (props) => {
 
     return (
         <section className="">
-            {/* <h1> {title}</h1> */}
             {layoutOfUniv}
             < div className="my-10">
-                {/* <h1 className="font-bold text-2xl m-10"> الاختصاصات الموجودة في <span>{uni.name}</span> </h1> */}
-                <h1 className="font-bold text-2xl m-10"> الاختصاصات الموجودة في <span></span> </h1>
+                <h1 className="font-bold text-2xl m-10 mx-20"> الاختصاصات الموجودة  <span></span> </h1>
                 <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 m-10">
-                    {
-                        unv.map(uni =>
-                            <Card id={uni.id}
-                                name={uni.name}
-                                address={uni.address}
-                                phone={uni.phone}
-                                website={uni.website}
-                                image="/images/unii.png" />
 
-                        )
+                    {/*//? map over the filds  */}
+                    {unv.map(uni =>
+                        <Card id={uni.id}
+                            name={uni.name}
+                            address={uni.address}
+                            phone={uni.phone}
+                            website={uni.website}
+                            image="/images/unii.png" />)}
 
-                    }
                 </div>
             </div>
         </section >
