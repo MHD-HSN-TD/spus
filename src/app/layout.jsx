@@ -1,8 +1,9 @@
 import { Alexandria, Cairo } from 'next/font/google'
 import './globals.css'
+
+import { Providers } from '@/components/Provider/Provider'
 import Footer from '@/components/Footer/Footer'
 import NavBar from '@/components/navBar/NavBar'
-import { Providers } from '@/components/Provider/Provider'
 
 
 // const ciaro = Cairo({ subsets: ['arabic'], weight: ['400'] })
