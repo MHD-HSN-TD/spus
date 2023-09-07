@@ -7,7 +7,7 @@ const links = [
   {
     id: 2,
     name: "الجامعات",
-    href: "/portfolio",
+    href: "/unis",
   },
   {
     id: 3,

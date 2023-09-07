@@ -6,7 +6,7 @@ export const metadata = {
     title: ' الجامعات',
     description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
 }
-const Portfolio = () => {
+const Unis = () => {
     // console.log('ss', image)
     return (
         <div className="  ">
@@ -16,7 +16,7 @@ const Portfolio = () => {
             <div className="grid gap-x-24 gap-y-10 lg:grid-cols-2 py-10 m-10 0">
                 {unv.map(el => {
                     return (
-                        <Link href={`/portfolio/${el.id}`} id={el.id}>
+                        <Link href={`/unis/${el.id}`} id={el.id}>
                             <Card
                                 id={el.id}
                                 name={el.name}
@@ -34,4 +34,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default Unis

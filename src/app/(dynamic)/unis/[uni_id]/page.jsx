@@ -35,7 +35,7 @@ const Uni = (props) => {
             {/* the header and the bach button */}
             <div>
                 <h1 className=" bg-accent-focus text-4xl p-3 ">{uni.name}</h1>
-                <Link href={'/portfolio'} className=" btn bg-neutral m-4" >
+                <Link href={'/unis'} className=" btn bg-neutral m-4" >
                     <Image src={'/images/back.png'} width={30} height={30} />
                     <div className=""> العودة لصفحة الجامعات</div>
                 </Link>
