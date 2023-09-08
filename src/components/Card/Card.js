@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-const Card = ({ id, name, address, phone, website, image }) => {
+const Card = ({ id, name, address, phone, website, image, width }) => {
   // console.log(image);
   return (
-    <div className="card card-side bg-secondary shadow-xl">
+    <div className={`card md:card-side bg-secondary shadow-xl w-auto `}>
       <figure className="max-w-xs max-h-80 m-1">
         <Image src={image} alt="Movie" height={140} width={140} />
       </figure>
-      <div className="card-body">
+      <div className="card-body items-center text-center">
         <h2 className="card-title">{name} </h2>
         <h2 className="card-title">{id}</h2>
         <div className="py-6 ">

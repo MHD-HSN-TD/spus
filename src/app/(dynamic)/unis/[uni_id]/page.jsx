@@ -46,7 +46,7 @@ const Uni = (props) => {
                 <Image src={'/images/uni-1.jpg'} width={1000} height={1000} className="mx-auto " />
                 <div className=" mx-10 text-2xl py-3 ">
                     <h2 className="font-bold">لمحة سريعة :</h2>
-                    <p className="text-base  tracking-wide">{overView}</p>
+                    <p className="text-base  tracking-wide text-justify">{overView}</p>
                 </div>
             </section>
 
@@ -54,7 +54,6 @@ const Uni = (props) => {
     </div >
     )
 
-    const title = 'الصفحة الخاصة بكل جامعة '
 
 
     return (
@@ -62,18 +61,20 @@ const Uni = (props) => {
             {layoutOfUniv}
             < div className="my-10">
                 <h1 className="font-bold text-2xl m-10 mx-20"> الاختصاصات الموجودة  <span></span> </h1>
-                <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 m-10">
 
-                    {/*//? map over the filds  */}
+                <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 m-10">
+                    {/*//? map over the fields  */}
                     {unv.map(uni =>
                         <Card id={uni.id}
                             name={uni.name}
                             address={uni.address}
                             phone={uni.phone}
                             website={uni.website}
-                            image="/images/unii.png" />)}
-
+                            image="/images/unii.png"
+                            width={10}
+                        />)}
                 </div>
+
             </div>
         </section >
     )
