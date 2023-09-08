@@ -11,7 +11,7 @@ const links = [
   },
   {
     id: 3,
-    name: "حول",
+    name: "من نحن",
     href: "/about",
   },
   // {
