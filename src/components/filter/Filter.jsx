@@ -14,7 +14,7 @@ const Filter = () => {
                 <option value="it" className="text-l pt-10">الهندسة المعلوماتية</option>
                 <option value="civil" className="text-l">الهندسة المدنية</option>
                 <option value="arch" className="text-l">هندسة العمارة</option>
-                <option value="midicen" className="text-l">الطب البشري</option>
+                <option value="medicen" className="text-l">الطب البشري</option>
             </select>
         </div>
     )
