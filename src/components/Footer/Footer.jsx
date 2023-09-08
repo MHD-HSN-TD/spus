@@ -1,6 +1,7 @@
 import Image from "next/image"
 import NavBarLinks from "../navBar/NavBarLinks"
 import { social } from "./socail"
+import SocialIcons from "../SocialIcons/SocialIcons"
 
 const Footer = () => {
     return (
@@ -24,17 +25,8 @@ const Footer = () => {
             {/* //?-----social start------- */}
             <div>
                 <span className="footer-title">Social</span>
-                <div className="grid  gap-10 grid-cols-2">
-                    {social.map(item =>
-                        <Image
-                            key={item.id}
-                            src={item.src}
-                            width={40}
-                            height={40}
-                            alt={item.name}
-                            className="cursor-pointer opacity-80 hover:opacity-100 transition-opacity  "
-                        ></Image>)}
-
+                <div className="grid  gap-10 grid-cols-3">
+                    <SocialIcons person={"hsn"}></SocialIcons>
                 </div>
             </div>
             {/* //?-----social ends------- */}
