@@ -36,24 +36,20 @@ const about = () => {
                         <CardAbout
                             person={`${memberNames[index]}`}
                             key={member.id}
-                            name={member.name}
-                            phone={member.phone}
-                            about={member.about}
                             image={member.imageHref}
-                            email={member.email}
-                            facebook={member.facebook}
-                            instagram={member.instagram}
-                            telegram={member.telegram}
-                            linkedIn={member.linkedIn}
-                            github={member.github}
+                            about={member.about}
+                            name={member.name}
                             vertical />)}
                 </div>
             </div>
             {/* -------------Meet our teams ends------------- */}
 
-            {/* -------------Meet our teams ends------------- */}
-
-            {/* -------------Meet our teams ends------------- */}
+            {/* -------------It is over ??------------- */}
+            <div className="bg-slate-400 lg:px-32 p-10 text-3xl  mt-10 ">
+                <h1 className="lg:text-3xl text-lg text-black mb-4 font-semibold">هل هنالك المزيد ام ماذا؟</h1>
+                <p>بالطبع لا .... انها فقط البداية ولدنيا الكثيــــــــــــــــر الكثير من المشاريع القادمة</p>
+            </div>
+            {/* -------------It is over ?? ends------------- */}
 
 
 
