@@ -1,14 +1,16 @@
 'use client'
 
-import { setFilter } from "@/store/filterSlice"
 import { univFields } from "@/store/uniFields"
 import { useDispatch } from "react-redux"
+import { setFilter } from "@/store/filterSlice"
+// import setFilter from '@/store/filterSlice'
+
 
 const Filter = () => {
 
     const dispatch = useDispatch();
     const OptionValueHandler = e => {
-        dispatch(setFilter(univFields, "civil"))
+        dispatch(setFilter(e.target.value))
         console.log(e.target.value)
     }
     return (
