@@ -20,7 +20,7 @@ const Filter = () => {
             <select
                 className="select  select-success w-full max-w-xs px-10 my-4" dir='rtl'
                 id="category" onChange={OptionValueHandler}>
-                <option disabled selected></option>
+                <option disabled selected>اختر الفرع ادناه  </option>
                 <option defaultValue="it" value='it' className="text-l pt-10">الهندسة المعلوماتية</option>
                 <option defaultValue='civil' value="civil" className="text-l">الهندسة المدنية</option>
                 <option defaultValue="arch" value='arch' className="text-l">هندسة العمارة</option>

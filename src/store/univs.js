@@ -2,6 +2,8 @@ export const unv = [
   {
     id: 1,
     name: "الجامعة العربية الدولية (AIU).",
+    fields: ["it", "", "arch", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -12,6 +14,8 @@ export const unv = [
   {
     id: 2,
     name: "جامعة الأندلس للعلوم الطبية.",
+    fields: ["it", "civil", "", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -22,6 +26,8 @@ export const unv = [
   {
     id: 3,
     name: "الجامعة السورية الخاصة (SPU).",
+    fields: ["it", "civil", "medicine", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -32,6 +38,8 @@ export const unv = [
   {
     id: 4,
     name: "جامعة القلمون الخاصة.",
+    fields: ["it", "medicine", "arch", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -42,6 +50,8 @@ export const unv = [
   {
     id: 5,
     name: "الجامعة الدولية الخاصة للعلوم والتكنولوجيا.",
+    fields: ["", "civil", "", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -52,6 +62,7 @@ export const unv = [
   {
     id: 6,
     name: "المعهد الفرنسي للشرق الأدنى.",
+    fields: [""],
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -62,6 +73,8 @@ export const unv = [
   {
     id: 7,
     name: "جامعة الجزيرة الخاصة (JPU).",
+    fields: ["it", "", "arch", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -72,6 +85,8 @@ export const unv = [
   {
     id: 8,
     name: "جامعة الشام الخاصة.",
+    fields: ["it", "", "arch", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -82,6 +97,8 @@ export const unv = [
   {
     id: 9,
     name: "جامعة المنارة.",
+    fields: ["it", "", "arch", "1"],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -92,6 +109,8 @@ export const unv = [
   {
     id: 10,
     name: "الجامعة الوطنية الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -102,6 +121,8 @@ export const unv = [
   {
     id: 11,
     name: "جامعة الحواش الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -112,6 +133,8 @@ export const unv = [
   {
     id: 12,
     name: "جامعة الوادي الدولية.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -122,6 +145,8 @@ export const unv = [
   {
     id: 13,
     name: "أكاديمية العلوم الصحية.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -132,6 +157,8 @@ export const unv = [
   {
     id: 14,
     name: "المعهد العالي لإدارة الأعمال (HIPA).",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -142,6 +169,8 @@ export const unv = [
   {
     id: 15,
     name: "جامعة اليرموك الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -152,6 +181,8 @@ export const unv = [
   {
     id: 16,
     name: "جامعة الاتحاد الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -162,6 +193,8 @@ export const unv = [
   {
     id: 17,
     name: "جامعة أنطاكية السورية الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -172,6 +205,8 @@ export const unv = [
   {
     id: 18,
     name: "الأكاديمية السورية الدولية للتدريب والتطوير.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -182,6 +217,8 @@ export const unv = [
   {
     id: 19,
     name: "جامعة روجافا.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -192,6 +229,8 @@ export const unv = [
   {
     id: 20,
     name: "المعهد الوطني للإدارة العامة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -202,6 +241,8 @@ export const unv = [
   {
     id: 21,
     name: "الجامعة الدولية للعلوم والنهضة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -212,6 +253,8 @@ export const unv = [
   {
     id: 22,
     name: "جامعة إبلا الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -222,6 +265,8 @@ export const unv = [
   {
     id: 23,
     name: "جامعة قرطبة الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -232,6 +277,8 @@ export const unv = [
   {
     id: 24,
     name: "الجامعة العربية للعلوم والتكنولوجيا.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -242,6 +289,8 @@ export const unv = [
   {
     id: 25,
     name: "جامعة قاسيون الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -252,6 +301,8 @@ export const unv = [
   {
     id: 26,
     name: "جامعة الرشيد الخاصة للعلوم والتكنولوجيا.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -262,6 +313,8 @@ export const unv = [
   {
     id: 27,
     name: "جامعة بلاد الشام.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -272,6 +325,8 @@ export const unv = [
   {
     id: 28,
     name: "جامعة الشهباء الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -282,6 +337,8 @@ export const unv = [
   {
     id: 29,
     name: "جامعة الشمال الخاصة.",
+    fields: [""],
+
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -294,7 +351,9 @@ export const unv = [
 //  {
 //   id: "1",
 //   name: "الجامعة العربية الدولية (AIU)",
-//   address: "درعا",
+//fields: [""];
+//
+// address: "درعا",
 //   phone: "05011111111",
 //   email: "<EMAIL>",
 //   website: "www.unv.edu.eg",

@@ -1,5 +1,5 @@
 'use client'
-// import { unv } from "@/store/univs"
+import { unv } from "@/store/univs"
 import { univFields } from "@/store/uniFields"
 import Link from "next/link"
 import Card from "../Card/Card"
@@ -16,7 +16,7 @@ const ShowUnis = () => {
         <div className="grid gap-x-24 gap-y-10 lg:grid-cols-2 py-10 m-10 0">
 
             {
-                univFields.map(el => {
+                unv.map(el => {
                     // console.log(el, el.fields.includes(setFilter.chosenField));
                     if (el.fields.includes(setFilter.chosenField)) {
                         return (
