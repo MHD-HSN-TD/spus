@@ -27,7 +27,7 @@ const ShowUnis = () => {
                                     address={el.address}
                                     phone={el.phone}
                                     website={el.website}
-                                    image="/images/unii.png"
+                                    image={el.image}
                                 />
                             </Link>
                         )

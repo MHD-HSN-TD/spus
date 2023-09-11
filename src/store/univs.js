@@ -3,7 +3,7 @@ export const unv = [
     id: 1,
     name: "الجامعة العربية الدولية (AIU).",
     fields: ["it", "", "arch", "1"],
-
+    image: "/Unis Logo/aui.png",
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -15,7 +15,7 @@ export const unv = [
     id: 2,
     name: "جامعة الأندلس للعلوم الطبية.",
     fields: ["it", "civil", "", "1"],
-
+    image: "/Unis Logo/AMU.png",
     address: "درعا",
     phone: "05011111111",
     email: "<EMAIL>",
@@ -27,6 +27,7 @@ export const unv = [
     id: 3,
     name: "الجامعة السورية الخاصة (SPU).",
     fields: ["it", "civil", "medicine", "1"],
+    image: "/Unis Logo/SPU.png",
 
     address: "درعا",
     phone: "05011111111",
@@ -39,6 +40,7 @@ export const unv = [
     id: 4,
     name: "جامعة القلمون الخاصة.",
     fields: ["it", "medicine", "arch", "1"],
+    image: "/Unis Logo/aui.png",
 
     address: "درعا",
     phone: "05011111111",
