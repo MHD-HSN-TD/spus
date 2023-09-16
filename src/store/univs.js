@@ -2,7 +2,7 @@ export const unv = [
   {
     id: 1,
     name: "الجامعة العربية الدولية (AIU).",
-    fields: ["it", "", "arch", "1"],
+    fields: ["1"],
     image: "/Unis Logo/aui.png",
     address: "درعا",
     phone: "05011111111",

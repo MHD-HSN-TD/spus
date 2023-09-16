@@ -2,6 +2,7 @@
 // import { useRouter } from "next/router"
 
 import Card from "@/components/Card/Card"
+import { universities } from "@/store/universities"
 import { unv } from "@/store/univs"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,7 +12,7 @@ export async function generateMetadata({ params, searchParams }) {
     // read route params and detecate the id url
     const id = params.uni_id
 
-    //#  map over the {umn} arr and fined the the name from the page's id a
+    //#  map over the {umn} arr and find the the name from the page's id a
     const title = unv.map(el => (el.id == id) && el.name)
 
     //#  for over the {title} arr and return the name where index in "title" arr === page id
@@ -26,15 +27,16 @@ export async function generateMetadata({ params, searchParams }) {
 
 const Uni = (props) => {
 
-    const idOfPaga = props.params.uni_id
+
+    const idOfPage = props.params.uni_id
     const overView = `
 أحدثت جَامعة المَنارة بموجب المرسوم رقم/ 108/ في 31 آذار 2016، وتمت الموافقة على افتتاحها بموجب قرار مجلس التعليم العالي رقم /266/ في 17 تموز 2016، وقرار السيد وزير التعليم العالي رقم / 114/ في 6 تشرين الثاني 2016. في المبنى المؤقت في مدينة اللاذقية – المشروع العاشر وبدأت بتنفيذ برامجها الأكاديمية في 6 تشرين الثاني 2016.`
 
-    const layoutOfUniv = unv.map(uni => (uni.id == idOfPaga) && <div className="  " key={uni.id} >
+    const layoutOfUniv = universities.map(uni => (uni.id == idOfPage) && <div className="  " key={uni.id} >
         <div className=" ">
             {/* the header and the bach button */}
             <div>
-                <h1 className=" bg-accent-focus text-4xl p-3 ">{uni.name}</h1>
+                <h1 className=" bg-accent-focus lg:text-4xl text-xl p-3 ">{uni.name}</h1>
                 <Link href={'/unis'} className=" btn bg-neutral m-4" >
                     <Image src={'/images/back.png'} width={30} height={30} />
                     <div className=""> العودة لصفحة الجامعات</div>
