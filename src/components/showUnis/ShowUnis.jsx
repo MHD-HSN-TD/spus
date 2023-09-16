@@ -31,7 +31,7 @@ const ShowUnis = () => {
                                     phoneB={el.phoneB}
                                     phoneC={el.phoneC}
                                     website={el.website}
-                                    image={el.image} //TODO : add image here
+                                    image={el.mainImage} //TODO : add image here
                                 />
                             </Link>
                         )
