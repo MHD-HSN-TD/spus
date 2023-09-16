@@ -6,7 +6,7 @@ export default function Home() {
   const title = 'الموقع الأول في سورية للجامعات السورية الخاصة'
   return (
     // <div className="container lg:mx-auto hero lg:min-h-screen text-center ">
-    <div className="container  hero lg:min-h-screen text-center lg:text-start  ">
+    <div className="  hero lg:min-h-screen text-center lg:text-start  ">
       <div className="hero-content flex-col lg:flex-row gap-8 w-11/12">
         <div className=''>
           <h1 className=" font-bold uppercase  text-transparent text-5xl bg-clip-text bg-gradient-to-b from-success to-white  leading-snug ">{title}</h1>
