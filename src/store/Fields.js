@@ -1,3 +1,23 @@
+// Human Medicine (HM)
+// Pharmacy (PHY)
+// Dentistry (DNT)
+// Physical Therapy (PT)
+// Health Sciences (HS)
+// Nursing (NRS)
+// Cosmetology (COS)
+// Computer and Communication Engineering (CCE)
+// Civil Engineering (CE)
+// Architectural Engineering (AE)
+// Chemical Engineering (CHE)
+// Petroleum Engineering (PE)
+// Business Admin (BA)
+// Law (LAW)
+// Entrepreneurship (ENT)
+// English Language (EL)
+// International Relations and Diplomacy (IRD)
+// Arts (ART)
+// Acting (ACT)
+
 export const fields = [
   {
     Id: 1,

@@ -1,5 +1,4 @@
-// 'use client'
-// import { useRouter } from "next/router"
+
 
 import Card from "@/components/Card/Card"
 import { universities } from "@/store/universities"
@@ -66,7 +65,28 @@ const Uni = (props) => {
 
                 <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 m-10">
                     {/*//? map over the fields  */}
-                    {unv.map(uni =>
+                    {universities.map(uni => {
+                        if (idOfPage == uni.id) {
+                            // console.log(uni.fieldsForCards)
+                            return (
+
+                                uni.fieldsForCards.map(field => {
+                                    console.log(field)
+                                    return (<Card id={field.id}
+                                        name={field.specialization}
+                                        address={field.address}
+                                        phone={field.phone}
+                                        website={field.website}
+                                        // image="/images/unii.png"
+                                        width={10} vertical />)
+                                })
+                            )
+                        }
+                    })}
+
+
+
+                    {/* {unv.map(uni =>
                         <Card id={uni.id}
                             name={uni.name}
                             address={uni.address}
@@ -74,7 +94,7 @@ const Uni = (props) => {
                             website={uni.website}
                             image="/images/unii.png"
                             width={10}
-                        />)}
+                        />)} */}
                 </div>
 
             </div>
