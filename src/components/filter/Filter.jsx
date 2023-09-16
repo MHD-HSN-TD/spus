@@ -13,21 +13,20 @@ const Filter = () => {
         dispatch(setFilter(e.target.value))
         console.log(e.target.value)
     }
+    const par = `حدد اي فرع تود ان تأخد المعلومات عنه من خلال استخدام الـفلتـــر ادناه`
     return (
-        <div className="p-6">
-
+        <div className="">
+            <p className="text-lg font-semibold p-6">{par}</p>
             <label htmlFor="category" className=" text-lg font-bold px-6">اختر الكلية المطلوبة  :  </label>
             <select
                 className="select  select-success w-full max-w-xs px-10 my-4" dir='rtl'
                 id="category" onChange={OptionValueHandler}>
-                <option disabled selected defaultValue="" value='' className="text-lg ">اختر الكلية المطلوبة                                                                                                                                                 ادناه  </option>
-                <option defaultValue="" value='' className="text-lg ">كل الجامعات</option>
+                <option disabled selected defaultValue="" value='' className="text-lg ">اختر الكلية المطلوبة ادناه  </option>
+                <option defaultValue="" value='' className="text-lg ">كل الكليات</option>
+                {/* map over the fields */}
                 {fields.map((field, i) => <option defaultValue={field.Acronym} value={field.Acronym} className="text-lg ">{field.Arabic}</option>)}
 
-                {/* <option defaultValue="it" value='it' className="text-l pt-10">الهندسة المعلوماتية</option>
-                <option defaultValue='civil' value="civil" className="text-l">الهندسة المدنية</option>
-                <option defaultValue="arch" value='arch' className="text-l">هندسة العمارة</option>
-                <option defaultValue="medicine" value='medicine' className="text-l">الطب البشري</option> */}
+
             </select>
         </div >
     )

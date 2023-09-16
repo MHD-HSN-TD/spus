@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <Image
           src="/images/unii.png"
-          className="max-w-sm rounded-lg shadow-2xl w-3/4"
+          className="max-w-sm rounded-lg shadow-2xl w-3/4 mr-10"
           alt='hero section'
           width={380}
           height={380} />
