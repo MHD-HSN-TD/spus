@@ -1,6 +1,7 @@
 
 
 import Card from "@/components/Card/Card"
+import Table from "@/components/Table/Table"
 import { universities } from "@/store/universities"
 import { unv } from "@/store/univs"
 import Image from "next/image"
@@ -79,7 +80,7 @@ const Uni = (props) => {
         <section className="">
             {layoutOfUniv}
             < div className="my-10">
-                <h1 className="font-bold text-2xl m-10 mx-20"> الاختصاصات الموجودة  <span></span> </h1>
+                <h1 className="font-bold  m-10 ">  الاختصاصات الموجودة   :   <span></span> </h1>
 
                 <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:m-10 m-2">
                     {/*//? map over the fields  */}
@@ -104,10 +105,24 @@ const Uni = (props) => {
                             )
                         }
                     })}
+                </div>
+            </div>
+            {/*  table start */}
+            <div>
+                {/* table info display */}
+                <div className="">
+                    <span></span>
+                </div>
+                {/* table display */}
+                <div className=" mx-auto lg:w-4/6 lg:text-lg text-xs p-4">
+                    <div>
+                        <Table></Table>
+
+                    </div>
 
                 </div>
-
             </div>
+
         </section >
     )
 }
