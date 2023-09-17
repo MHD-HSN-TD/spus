@@ -70,7 +70,7 @@ const Card = ({
         <h2 className="font-semibold lg:text-lg text-sm">{name} </h2>
         <div className="py-6 lg:text-right">
           <p className="py-1">
-            <span className="font-semibold mx-2"> العنوان :</span>
+            <span className="font-semibold mx-2"> مكان الدوام :</span>
             <span> {address}</span>
           </p>
           {phoneA && (
