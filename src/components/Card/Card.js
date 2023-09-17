@@ -54,13 +54,20 @@ const Card = ({
       </div>
     </div>
   );
+
   const cardVertical = (
     <div className={`card  bg-secondary shadow-xl w-auto `}>
       <figure className="max-w-xs max-h-80 m-1 lg:py-1 py-1">
-        <Image src={image} alt="Movie" height={100} width={100} />
+        <Image
+          src={image}
+          alt="Movie"
+          height={100}
+          width={100}
+          className="lg:w-full w-1/2"
+        />
       </figure>
-      <div className="text-center px-2 ">
-        <h2 className="font-semibold text-lg">{name} </h2>
+      <div className="text-center px-2 lg:text-lg text-sm ">
+        <h2 className="font-semibold lg:text-lg text-sm">{name} </h2>
         <div className="py-6 lg:text-right">
           <p className="py-1">
             <span className="font-semibold mx-2"> العنوان :</span>

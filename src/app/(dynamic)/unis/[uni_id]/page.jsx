@@ -81,7 +81,7 @@ const Uni = (props) => {
             < div className="my-10">
                 <h1 className="font-bold text-2xl m-10 mx-20"> الاختصاصات الموجودة  <span></span> </h1>
 
-                <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 m-10">
+                <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:m-10 m-2">
                     {/*//? map over the fields  */}
                     {universities.map(uni => {
                         if (idOfPage == uni.id) {
