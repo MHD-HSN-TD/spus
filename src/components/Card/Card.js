@@ -22,11 +22,11 @@ const Card = ({ id, name, address, phoneA, phoneB, image, vertical }) => {
             العنوان : <span> {address}</span>
           </p>
           <p className="py-1">
-            الهاتف : <span dir="ltr"> {phoneA}</span>
+            الهاتف 1: <span dir="ltr"> {phoneA}</span>
           </p>
           {phoneB && (
             <p className="py-1">
-              الهاتف : <span dir="ltr"> {phoneB}</span>
+              الهاتف 2: <span dir="ltr"> {phoneB}</span>
             </p>
           )}
           <div className="py-1">

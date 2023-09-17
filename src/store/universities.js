@@ -48,7 +48,7 @@ export const universities = [
       {
         specialization: "Y",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
         hours: "190",
@@ -80,7 +80,7 @@ export const universities = [
       {
         specialization: "Y",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
         hours: "135",
@@ -121,7 +121,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "حلب - حلب الجديدة شمالي",
         years: "5",
         hours: "190",
@@ -137,7 +137,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "حلب - حلب الجديدة شمالي",
         years: "4",
         hours: "135",
@@ -170,7 +170,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
         hours: "190",
@@ -202,7 +202,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
         hours: "135",
@@ -243,7 +243,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
         hours: "190",
@@ -275,7 +275,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
         hours: "135",
@@ -300,7 +300,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
         hours: "190",
@@ -373,7 +373,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "حلب - جمعية المهندسين",
         years: "5",
         hours: "190",
@@ -405,7 +405,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "حلب - جمعية المهندسين",
         years: "4",
         hours: "135",
@@ -478,7 +478,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "حلب - الحمدانية",
         years: "4",
         hours: "135",
@@ -512,7 +512,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "ريف دمشق - معرة صيدنايا",
         years: "5",
         hours: "190",
@@ -544,7 +544,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "ريف دمشق - معرة صيدنايا",
         years: "4",
         hours: "135",
@@ -585,7 +585,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
         hours: "135",
@@ -666,7 +666,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "4",
         hours: "135",
@@ -699,7 +699,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "5",
         hours: "190",
@@ -731,7 +731,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "4",
         hours: "135",
@@ -758,7 +758,7 @@ export const universities = [
     address: "حمص - الحواش",
     phoneA: "00963-31-7747935",
     phoneB: "00963-31-2080",
-    phoneC: "X",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {
@@ -772,7 +772,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "حمص - الحواش",
         years: "5",
         hours: "190",
@@ -869,7 +869,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "5",
         hours: "190",
@@ -901,7 +901,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "4",
         hours: "135",
@@ -918,9 +918,9 @@ export const universities = [
     website: "https://www.manara.edu.sy/",
     facebook: "https://www.facebook.com/ManaraUniv/",
     address: "اللاذقية - المشروع العاشر",
-    phoneA: "X",
-    phoneB: "X",
-    phoneC: "X",
+    phoneA: "",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {
@@ -934,7 +934,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "اللاذقية - المشروع العاشر",
         years: "5",
         hours: "190",
@@ -974,7 +974,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Business Administration",
+        name: "ادارة الاعمال",
         address: "اللاذقية - المشروع العاشر",
         years: "4",
         hours: "135",
@@ -1000,8 +1000,8 @@ export const universities = [
     facebook: "https://ar-ar.facebook.com/Al.Sham.University/",
     address: "دمشق - البرامكة- جانب ملعب تشرين - قرب مسجد مصعب بن عمير",
     phoneA: "0096311-2066",
-    phoneB: "X",
-    phoneC: "X",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {
@@ -1055,7 +1055,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "دمشق - المزرعة",
         years: "5",
         hours: "190",
@@ -1063,7 +1063,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "اللاذقية - الصليبة",
         years: "5",
         hours: "190",
@@ -1105,9 +1105,9 @@ export const universities = [
     facebook:
       "https://www.facebook.com/jude.edu.sy/?paipv=0&eav=Afbgtvkxtf3s3H-7IeszMIGn-rlADaN2DO37flGW4KSEeLAWTyb2siiIv3z6pGi8q6c&_rdr",
     address: "أوتستراد (دمشق - درعا) - غباغب",
-    phoneA: "X",
-    phoneB: "X",
-    phoneC: "X",
+    phoneA: "",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {
@@ -1163,8 +1163,8 @@ export const universities = [
     facebook: "https://www.facebook.com/kalamoonofficial",
     address: "أوتستراد (دمشق - حمص) الدولي - دير عطية",
     phoneA: "00963-11-7833999",
-    phoneB: "X",
-    phoneC: "X",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {
@@ -1178,7 +1178,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "KR",
         years: "5",
         hours: "190",
@@ -1260,8 +1260,8 @@ export const universities = [
     facebook: "https://www.facebook.com/kalamoonofficial",
     address: "أوتستراد (دمشق - حمص) الدولي - دير عطية",
     phoneA: "00963-11-7833999",
-    phoneB: "X",
-    phoneC: "X",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {
@@ -1275,7 +1275,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "KR",
         years: "5",
         hours: "190",
@@ -1357,8 +1357,8 @@ export const universities = [
     facebook: "https://www.facebook.com/SPUpage.sy/?ref=bookmarks",
     address: "أوتستراد (دمشق - درعا) - بعد بلدة الكسوة",
     phoneA: "00963 11 639 021000",
-    phoneB: "X",
-    phoneC: "X",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: ["DNT"],
     fieldsForCards: [
       {
@@ -1372,7 +1372,7 @@ export const universities = [
       {
         specialization: "سوري + شهادة سورية",
         icon: "X",
-        name: "Dentistry",
+        name: "طب الاسنان",
         address: "KR",
         years: "5",
         hours: "190",
@@ -1422,8 +1422,8 @@ export const universities = [
     facebook: "https://www.facebook.com/andalusuni.ms",
     address: "طرطوس - القدموس",
     phoneA: "00963-41-7557600",
-    phoneB: "X",
-    phoneC: "X",
+    phoneB: "",
+    phoneC: "",
     fieldsForFilter: fieldsForTest,
     fieldsForCards: [
       {

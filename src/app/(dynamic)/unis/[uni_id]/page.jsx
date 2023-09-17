@@ -73,7 +73,7 @@ const Uni = (props) => {
                                 uni.fieldsForCards.map(field => {
                                     console.log(field)
                                     return (<Card id={field.id}
-                                        name={field.specialization}
+                                        name={field.name}
                                         address={field.address}
                                         phone={field.phone}
                                         website={field.website}
