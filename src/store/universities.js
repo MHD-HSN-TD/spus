@@ -30,7 +30,7 @@ export const universities = [
     EnName: "Arab International University",
     acronym: "AIU",
     image: `/images/Unis Logo/`,
-    mainImage: `/Unis Logo/AIU.png`,
+    mainImage: `/Unis Logo/AIU.png`, // fOR card
     website: "https://www.aiu.edu.sy/",
     facebook: "https://www.facebook.com/ArabInternationalUniversity",
     address: "أوتستراد (دمشق - درعا) - غباغب",

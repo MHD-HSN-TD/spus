@@ -8,16 +8,36 @@ import Image from "next/image";
 //   github,
 //   children,
 // };
-const Card = ({ id, name, address, phoneA, phoneB, image, vertical }) => {
+const Card = ({
+  id,
+  name,
+  address,
+  phoneA,
+  phoneB,
+  image,
+  years,
+  hours,
+  vertical,
+}) => {
   // console.log(image);
   const cardSide = (
     <div className={`card md:card-side bg-secondary shadow-xl w-auto `}>
-      <figure className="max-w-xs max-h-80 m-1">
-        <Image src={image} alt={name} height={140} width={140} />
-      </figure>
-      <div className="card-body justify-center mr-10 ">
+      {/* <figure className="max-w-xs max-h-80 m-1"> */}
+      <div className="flex justify-center items-center">
+        <div className="w-40 h-40 m-1 flex justify-center items-center	">
+          <Image
+            src={image}
+            alt={name}
+            height={140}
+            width={140}
+            className=" "
+          />
+        </div>
+      </div>
+      {/* <div className="card-body justify-center lg:mr-10 "> */}
+      <div className="justify-center lg:mr-10 ">
         <h2 className="card-title">{name} </h2>
-        <div className="py-6 ">
+        <div className="lg:py-6 ">
           <p className="py-1">
             العنوان : <span> {address}</span>
           </p>
@@ -33,11 +53,6 @@ const Card = ({ id, name, address, phoneA, phoneB, image, vertical }) => {
             {/* الموقع الالكتروني :<span> <a href="https://spus.vercel.app/" className="btn btn-ghost">{website}</a></span> */}
           </div>
         </div>
-        {/* <div className="card-actions justify-end">
-          <button className="btn btn-accent  ">
-            <span className="text-white text">معلومات اضافية.</span>
-          </button>
-        </div> */}
       </div>
     </div>
   );
@@ -46,30 +61,35 @@ const Card = ({ id, name, address, phoneA, phoneB, image, vertical }) => {
       <figure className="max-w-xs max-h-80 m-1">
         <Image src={image} alt="Movie" height={140} width={140} />
       </figure>
-      <div className="card-body justify-center items-center text-center">
-        <h2 className="card-title">{name} </h2>
-        <h2 className="card-title">{id}</h2>
-        <div className="py-6 ">
+      <div className="text-center px-2 ">
+        <h2 className="font-semibold text-lg">{name} </h2>
+        <div className="py-6 lg:text-right">
           <p className="py-1">
-            العنوان :<span> {address}</span>
+            <span className="font-semibold mx-2"> العنوان :</span>
+            <span> {address}</span>
           </p>
-          <p className="py-1">
-            الهاتف : <span dir="ltr"> {phoneA}</span>
-          </p>
-          {/* <p className="py-1">
-            الموقع الالكتروني :
-            <span>
-              <a href="https://spus.vercel.app/" className="btn btn-ghost">
-                {website}
-              </a>
-            </span>
-          </p> */}
+          {phoneA && (
+            <p className="py-1">
+              الهاتف : <span dir="ltr"> {phoneA}</span>
+            </p>
+          )}
+          {years && (
+            <div>
+              <p className="py-1 font-medium">
+                <span className="font-semibold mx-2 ">
+                  {" "}
+                  عدد سنين الدراسة :{" "}
+                </span>
+                <span dir="ltr"> {years}</span>
+              </p>
+              <p className="py-1 font-medium">
+                <span className="font-semibold mx-2">عدد الساعات :</span>
+
+                <span dir="ltr"> {hours}</span>
+              </p>
+            </div>
+          )}
         </div>
-        {/* <div className="card-actions justify-end">
-          <button className="btn btn-accent  ">
-            <span className="text-white text">معلومات اضافية.</span>
-          </button>
-        </div> */}
       </div>
     </div>
   );

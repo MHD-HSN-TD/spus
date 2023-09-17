@@ -45,7 +45,26 @@ const Uni = (props) => {
             {/* the img and the  overView */}
             <section className="  m-10">
                 <Image src={'/images/uni-1.jpg'} width={1000} height={1000} className="mx-auto " />
-                <div className=" mx-10 text-2xl py-3 ">
+                {/* uni info */}
+                <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-slate-600  ">
+                    <h2 className="text-3xl"><span>الجامعة :</span>{uni.name} </h2>
+                    <div className="pt-6 pb-1 ">
+                        <p className="py-2"><span className="font-semibold  ml-2">العنوان : </span><span> {uni.address}</span></p>
+                        <p className="py-2"><span className="font-semibold ml-2">الهاتف 1:  </span><span dir="ltr"> {uni.phoneA}</span></p>
+                        {uni.phoneB && (
+                            <p className="py-2"><span>الهاتف 2: </span><span dir="ltr"> {uni.phoneB}</span></p>)}
+                        <div className="py-2">
+                            <span className="font-semibold ml-2">الموقع الالكتروني :</span>
+                            <span> <a href={uni.website} className="text-xs lg:text-base" target="_blank">{uni.website}</a></span>
+                        </div>
+                        <div className="py-2 w-">
+                            <span className="font-semibold ml-2">حساب الفيسبوك :</span><span> <a href={uni.facebook} className=" text-xs lg:text-base  " target="_blank">{uni.facebook}</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* uni about */}
+                <div className=" lg:mx-10 lg:text-2xl py-3 ">
                     <h2 className="font-bold">لمحة سريعة :</h2>
                     <p className="text-base  tracking-wide text-justify">{overView}</p>
                 </div>
@@ -63,38 +82,30 @@ const Uni = (props) => {
             < div className="my-10">
                 <h1 className="font-bold text-2xl m-10 mx-20"> الاختصاصات الموجودة  <span></span> </h1>
 
-                <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 m-10">
+                <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 m-10">
                     {/*//? map over the fields  */}
                     {universities.map(uni => {
                         if (idOfPage == uni.id) {
                             // console.log(uni.fieldsForCards)
-                            return (
-
-                                uni.fieldsForCards.map(field => {
-                                    console.log(field)
-                                    return (<Card id={field.id}
+                            return (uni.fieldsForCards.map(field => {
+                                console.log(field)
+                                return (<div>
+                                    <Card id={field.id}
                                         name={field.name}
                                         address={field.address}
                                         phone={field.phone}
                                         website={field.website}
                                         // image="/images/unii.png"
-                                        width={10} vertical />)
-                                })
+                                        hours={field.hours}
+                                        years={field.years}
+                                        width={10} vertical />
+                                </div>
+                                )
+                            })
                             )
                         }
                     })}
 
-
-
-                    {/* {unv.map(uni =>
-                        <Card id={uni.id}
-                            name={uni.name}
-                            address={uni.address}
-                            phone={uni.phone}
-                            website={uni.website}
-                            image="/images/unii.png"
-                            width={10}
-                        />)} */}
                 </div>
 
             </div>
