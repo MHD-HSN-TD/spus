@@ -63,7 +63,7 @@ const Card = ({
           alt="Movie"
           height={100}
           width={100}
-          className="lg:w-full w-1/2"
+          className="lg:w-24 w-1/2"
         />
       </figure>
       <div className="text-center px-2 lg:text-lg text-sm ">
