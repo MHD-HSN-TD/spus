@@ -46,13 +46,12 @@ const Uni = (props) => {
             <section className="  m-10">
                 <Image src={'/images/uni-1.jpg'} width={1000} height={1000} className="mx-auto " />
                 {/* uni info */}
-                <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-slate-600  ">
-                    <h2 className="text-3xl"><span>الجامعة :</span>{uni.name} </h2>
+                <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-black  ">
+                    <h2 className="text-3xl font-bold">{uni.name} </h2>
                     <div className="pt-6 pb-1 ">
                         <p className="py-2"><span className="font-semibold  ml-2">العنوان : </span><span> {uni.address}</span></p>
-                        <p className="py-2"><span className="font-semibold ml-2">الهاتف 1:  </span><span dir="ltr"> {uni.phoneA}</span></p>
-                        {uni.phoneB && (
-                            <p className="py-2"><span>الهاتف 2: </span><span dir="ltr"> {uni.phoneB}</span></p>)}
+                        <p className="py-2"><span className="font-semibold ml-2"> الهاتف 1:</span><span dir="ltr"> {uni.phoneA}</span></p>
+                        {uni.phoneB && (<p className="py-2"><span className="font-semibold ml-2"> الهاتف 2:</span><span dir="ltr"> {uni.phoneB}</span></p>)}
                         <div className="py-2">
                             <span className="font-semibold ml-2">الموقع الالكتروني :</span>
                             <span> <a href={uni.website} className="text-xs lg:text-base" target="_blank">{uni.website}</a></span>
@@ -86,16 +85,16 @@ const Uni = (props) => {
                     {/*//? map over the fields  */}
                     {universities.map(uni => {
                         if (idOfPage == uni.id) {
-                            // console.log(uni.fieldsForCards)
                             return (uni.fieldsForCards.map(field => {
-                                console.log(field)
+                                // console.log(field)
                                 return (<div>
                                     <Card id={field.id}
                                         name={field.name}
                                         address={field.address}
                                         phone={field.phone}
                                         website={field.website}
-                                        // image="/images/unii.png"
+                                        // image={field.icon}
+                                        image={field.icon}
                                         hours={field.hours}
                                         years={field.years}
                                         width={10} vertical />

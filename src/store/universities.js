@@ -21,7 +21,7 @@ const fieldsForTest = [
   "ART", // Arts (ART)
   "ACT", // Acting (ACT)
 ];
-// const
+const HM = `/icons/Human Medicine.png`;
 
 export const universities = [
   {
@@ -41,7 +41,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -49,7 +49,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -57,7 +57,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -65,7 +65,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -73,7 +73,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -81,7 +81,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -89,7 +89,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "الحقوق",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -97,7 +97,7 @@ export const universities = [
       },
       {
         specialization: "ART",
-        icon: "X",
+        icon: "/icons/ART.png",
         name: "الفنون",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -123,7 +123,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -131,7 +131,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -139,7 +139,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -164,7 +164,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -172,7 +172,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -180,7 +180,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -188,7 +188,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -196,7 +196,7 @@ export const universities = [
       },
       {
         specialization: "PT",
-        icon: "X",
+        icon: "/icons/PT.png",
         name: "العلاج الفيزيائي",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -204,7 +204,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -212,7 +212,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "الحقوق",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -237,7 +237,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -245,7 +245,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -253,7 +253,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -261,7 +261,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -269,7 +269,7 @@ export const universities = [
       },
       {
         specialization: "EL",
-        icon: "X",
+        icon: "/icons/EL.png",
         name: "اللغة الإنكليزية",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -277,7 +277,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -302,7 +302,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
@@ -310,7 +310,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
@@ -318,7 +318,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
@@ -326,7 +326,7 @@ export const universities = [
       },
       {
         specialization: "CHE",
-        icon: "X",
+        icon: "/icons/CHE.png",
         name: "الهندسة الكيميائية",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
@@ -334,7 +334,7 @@ export const universities = [
       },
       {
         specialization: "PE",
-        icon: "X",
+        icon: "/icons/PE.png",
         name: "الهندسة البترولية",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
@@ -342,7 +342,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "حماة - طريق حماة حمص الدولي",
         years: "5",
@@ -350,7 +350,7 @@ export const universities = [
       },
       {
         specialization: "EL",
-        icon: "X",
+        icon: "/icons/EL.png",
         name: "اللغة الإنكليزية",
         address: "حماة - طريق حماة حمص الدولي",
         years: "4",
@@ -375,7 +375,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "حلب - جمعية المهندسين",
         years: "5",
@@ -383,7 +383,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "حلب - جمعية المهندسين",
         years: "5",
@@ -391,7 +391,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "القامشلي",
         years: "5",
@@ -399,7 +399,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "ريف حلب",
         years: "5",
@@ -407,7 +407,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "حلب - جمعية المهندسين",
         years: "4",
@@ -415,7 +415,7 @@ export const universities = [
       },
       {
         specialization: "EL",
-        icon: "X",
+        icon: "/icons/EL.png",
         name: "اللغة الإنكليزية",
         address: "القامشلي",
         years: "4",
@@ -423,7 +423,7 @@ export const universities = [
       },
       {
         specialization: "EL",
-        icon: "X",
+        icon: "/icons/EL.png",
         name: "اللغة الإنكليزية",
         address: "ريف حلب",
         years: "4",
@@ -448,7 +448,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "حلب - الحمدانية",
         years: "5",
@@ -456,7 +456,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "حلب - الحمدانية",
         years: "5",
@@ -464,7 +464,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "حلب - الحمدانية",
         years: "5",
@@ -472,7 +472,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "حلب - الحمدانية",
         years: "5",
@@ -480,7 +480,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "حلب - الحمدانية",
         years: "4",
@@ -506,7 +506,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "ريف دمشق - معرة صيدنايا",
         years: "5",
@@ -514,7 +514,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "ريف دمشق - معرة صيدنايا",
         years: "5",
@@ -522,7 +522,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "ريف دمشق - معرة صيدنايا",
         years: "5",
@@ -530,7 +530,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "ريف دمشق - معرة صيدنايا",
         years: "5",
@@ -538,7 +538,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "ريف دمشق - معرة صيدنايا",
         years: "5",
@@ -546,7 +546,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "ريف دمشق - معرة صيدنايا",
         years: "4",
@@ -554,7 +554,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "الحقوق",
         address: "ريف دمشق - معرة صيدنايا",
         years: "4",
@@ -579,7 +579,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -587,7 +587,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -595,7 +595,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -603,7 +603,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "5",
@@ -628,7 +628,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "5",
@@ -636,7 +636,7 @@ export const universities = [
       },
       {
         specialization: "ART",
-        icon: "X",
+        icon: "/icons/ART.png",
         name: "الفنون",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "4",
@@ -644,7 +644,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "5",
@@ -652,7 +652,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "5",
@@ -660,7 +660,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "5",
@@ -668,7 +668,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "أوتستراد (دمشق - درعا) - جباب",
         years: "4",
@@ -693,7 +693,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "5",
@@ -701,7 +701,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "5",
@@ -709,7 +709,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "5",
@@ -717,7 +717,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "5",
@@ -725,7 +725,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "5",
@@ -733,7 +733,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "4",
@@ -741,7 +741,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "الحقوق",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "4",
@@ -777,7 +777,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: " HM",
-        icon: "X",
+        icon: "/icons/HM.png",
         name: "الطب البشري",
         address: "حمص - الحواش",
         years: "6",
@@ -785,7 +785,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "حمص - الحواش",
         years: "5",
@@ -793,7 +793,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "حمص - الحواش",
         years: "5",
@@ -801,7 +801,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "حمص - الحواش",
         years: "5",
@@ -809,7 +809,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "حمص - الحواش",
         years: "5",
@@ -817,7 +817,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "حمص - الحواش",
         years: "5",
@@ -825,7 +825,7 @@ export const universities = [
       },
       {
         specialization: "NRS",
-        icon: "X",
+        icon: "/icons/NRS.png",
         name: "التمريض",
         address: "حمص - الحواش",
         years: "4",
@@ -833,7 +833,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "الحقوق",
         address: "حمص - الحواش",
         years: "4",
@@ -841,7 +841,7 @@ export const universities = [
       },
       {
         specialization: "COS",
-        icon: "X",
+        icon: "/icons/COS.png",
         name: "التجميل",
         address: "حمص - الحواش",
         years: "4",
@@ -849,7 +849,7 @@ export const universities = [
       },
       {
         specialization: "ENT",
-        icon: "X",
+        icon: "/icons/ENT.png",
         name: "ريادة الأعمال",
         address: "حمص - الحواش",
         years: "4",
@@ -874,7 +874,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "5",
@@ -882,7 +882,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "5",
@@ -890,7 +890,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "5",
@@ -898,7 +898,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "5",
@@ -906,7 +906,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "5",
@@ -914,7 +914,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "حماة - أوتستراد حمص حماة الدولي",
         years: "4",
@@ -939,7 +939,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "HS",
-        icon: "X",
+        icon: "/icons/HS.png",
         name: "العلوم الصحية",
         address: "اللاذقية - المشروع العاشر",
         years: "4",
@@ -947,7 +947,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "اللاذقية - المشروع العاشر",
         years: "5",
@@ -955,7 +955,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "اللاذقية - المشروع العاشر",
         years: "5",
@@ -963,7 +963,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "اللاذقية - المشروع العاشر",
         years: "5",
@@ -971,7 +971,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "اللاذقية - المشروع العاشر",
         years: "5",
@@ -979,7 +979,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "اللاذقية - المشروع العاشر",
         years: "5",
@@ -987,7 +987,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "ادارة الاعمال",
         address: "اللاذقية - المشروع العاشر",
         years: "4",
@@ -995,7 +995,7 @@ export const universities = [
       },
       {
         specialization: "ACT",
-        icon: "X",
+        icon: "/icons/ACT.png",
         name: "التمثيل (كلية فنون الأداء)",
         address: "اللاذقية - المشروع العاشر",
         years: "غير معروف",
@@ -1020,7 +1020,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: " HM",
-        icon: "X",
+        icon: `/icons/".png`,
         name: "الطب البشري",
         address: "دمشق - التل",
         years: "6",
@@ -1028,7 +1028,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "دمشق - التل",
         years: "5",
@@ -1036,7 +1036,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "دمشق - التل",
         years: "5",
@@ -1044,7 +1044,7 @@ export const universities = [
       },
       {
         specialization: "IRD",
-        icon: "X",
+        icon: "/icons/IRD.png",
         name: "العلاقات الدولية والدبلوماسية",
         address: "دمشق - التل",
         years: "4",
@@ -1052,7 +1052,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "كلية الحقوق",
         address: "دمشق - البرامكة",
         years: "4",
@@ -1060,7 +1060,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "كلية إدارة الأعمال",
         address: "دمشق - البرامكة",
         years: "4",
@@ -1068,7 +1068,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "دمشق - المزرعة",
         years: "5",
@@ -1076,7 +1076,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "اللاذقية - الصليبة",
         years: "5",
@@ -1084,7 +1084,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "اللاذقية - الصليبة",
         years: "5",
@@ -1092,7 +1092,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "كلية الحقوق",
         address: "اللاذقية - الصليبة",
         years: "4",
@@ -1118,7 +1118,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "كلية الصيدلة",
         address: "KR",
         years: "5",
@@ -1126,7 +1126,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "إدارة الأعمال",
         address: "KR",
         years: "4",
@@ -1134,7 +1134,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "KR",
         years: "5",
@@ -1142,7 +1142,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "KR",
         years: "5",
@@ -1150,7 +1150,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "هندسة العمارة",
         address: "KR",
         years: "5",
@@ -1175,7 +1175,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الأسنان",
         address: "KR",
         years: "6",
@@ -1183,7 +1183,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "KR",
         years: "5",
@@ -1191,7 +1191,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "KR",
         years: "5",
@@ -1199,7 +1199,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "KR",
         years: "5",
@@ -1207,7 +1207,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "KR",
         years: "5",
@@ -1215,7 +1215,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "إدارة الأعمال",
         address: "KR",
         years: "5",
@@ -1223,7 +1223,7 @@ export const universities = [
       },
       {
         specialization: "ART",
-        icon: "X",
+        icon: "/icons/ART.png",
         name: "الفنون",
         address: "KR",
         years: "4",
@@ -1231,7 +1231,7 @@ export const universities = [
       },
       {
         specialization: "EL",
-        icon: "X",
+        icon: "/icons/EL.png",
         name: "اللغة الإنجليزية",
         address: "KR",
         years: "4",
@@ -1267,7 +1267,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "HM",
-        icon: "X",
+        icon: "/icons/HM.png",
         name: "الطب البشري",
         address: "KR",
         years: "6",
@@ -1275,7 +1275,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "KR",
         years: "5",
@@ -1283,7 +1283,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "KR",
         years: "5",
@@ -1291,7 +1291,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "KR",
         years: "5",
@@ -1299,7 +1299,7 @@ export const universities = [
       },
       {
         specialization: "CE",
-        icon: "X",
+        icon: "/icons/CE.png",
         name: "الهندسة المدنية",
         address: "KR",
         years: "5",
@@ -1307,7 +1307,7 @@ export const universities = [
       },
       {
         specialization: "AE",
-        icon: "X",
+        icon: "/icons/AE.png",
         name: "الهندسة المعمارية",
         address: "KR",
         years: "5",
@@ -1315,7 +1315,7 @@ export const universities = [
       },
       {
         specialization: "ART",
-        icon: "X",
+        icon: "/icons/ART.png",
         name: "الفنون",
         address: "KR",
         years: "4",
@@ -1323,7 +1323,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "X",
+        icon: "/icons/LAW.png",
         name: "الحقوق",
         address: "KR",
         years: "4",
@@ -1331,7 +1331,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "إدارة الأعمال",
         address: "KR",
         years: "4",
@@ -1339,7 +1339,7 @@ export const universities = [
       },
       {
         specialization: "HS",
-        icon: "X",
+        icon: "/icons/HS.png",
         name: "العلوم الصحية",
         address: "KR",
         years: "4",
@@ -1364,7 +1364,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "HM",
-        icon: "X",
+        icon: "/icons/HM.png",
         name: "الطب البشري",
         address: "KR",
         years: "6",
@@ -1372,7 +1372,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الاسنان",
         address: "KR",
         years: "5",
@@ -1380,7 +1380,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "KR",
         years: "5",
@@ -1388,7 +1388,7 @@ export const universities = [
       },
       {
         specialization: "CCE",
-        icon: "X",
+        icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
         address: "KR",
         years: "5",
@@ -1396,7 +1396,7 @@ export const universities = [
       },
       {
         specialization: "PE",
-        icon: "X",
+        icon: "/icons/PE.png",
         name: "الهندسة البترولية",
         address: "KR",
         years: "5",
@@ -1404,7 +1404,7 @@ export const universities = [
       },
       {
         specialization: "BA",
-        icon: "X",
+        icon: "/icons/BA.png",
         name: "إدارة الأعمال",
         address: "KR",
         years: "4",
@@ -1429,7 +1429,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: "HM",
-        icon: "X",
+        icon: "/icons/HM.png",
         name: "الطب البشري",
         address: "KR",
         years: "6",
@@ -1437,7 +1437,7 @@ export const universities = [
       },
       {
         specialization: "DNT",
-        icon: "X",
+        icon: "/icons/DNT.png",
         name: "طب الأسنان",
         address: "KR",
         years: "5",
@@ -1445,7 +1445,7 @@ export const universities = [
       },
       {
         specialization: "PHY",
-        icon: "X",
+        icon: "/icons/PHY.png",
         name: "الصيدلة",
         address: "KR",
         years: "5",
@@ -1453,7 +1453,7 @@ export const universities = [
       },
       {
         specialization: "NRS",
-        icon: "X",
+        icon: "/icons/NRS.png",
         name: "التمريض",
         address: "KR",
         years: "4",
@@ -1461,7 +1461,7 @@ export const universities = [
       },
       {
         specialization: "BE",
-        icon: "X",
+        icon: "/icons/BE.png",
         name: "الهندسة الطبية",
         address: "KR",
         years: "5",
@@ -1469,7 +1469,7 @@ export const universities = [
       },
       {
         specialization: "HA",
-        icon: "X",
+        icon: "/icons/HA.png",
         name: "إدارة المشفى",
         address: "KR",
         years: "4",
