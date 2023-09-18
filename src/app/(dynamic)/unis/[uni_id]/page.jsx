@@ -5,6 +5,8 @@ import Table from "@/components/Table/Table"
 import { universities } from "@/store/universities"
 import Image from "next/image"
 import Link from "next/link"
+import Loading from "../loading"
+
 
 
 export async function generateMetadata({ params, searchParams }) {
@@ -44,7 +46,7 @@ const Uni = (props) => {
 
             {/* the img and the  overView */}
             <section className="  m-10">
-                <Image src={uni.image} width={1000} height={1000} className="mx-auto " />
+                <Image src={uni.image} width={1000} height={1000} className="mx-auto " loader={Loading.jsx} />
                 {/* uni info */}
                 <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-black  ">
                     <h2 className="text-3xl font-bold">{uni.name} <span>{uni.acronym}</span></h2>
