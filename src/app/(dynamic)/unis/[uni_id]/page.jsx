@@ -45,7 +45,7 @@ const Uni = (props) => {
 
             {/* the img and the  overView */}
             <section className="  m-10">
-                <Image src={'/images/uni-1.jpg'} width={1000} height={1000} className="mx-auto " />
+                <Image src={uni.image} width={1000} height={1000} className="mx-auto " />
                 {/* uni info */}
                 <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-black  ">
                     <h2 className="text-3xl font-bold">{uni.name} </h2>
@@ -94,7 +94,6 @@ const Uni = (props) => {
                                         address={field.address}
                                         phone={field.phone}
                                         website={field.website}
-                                        // image={field.icon}
                                         image={field.icon}
                                         hours={field.hours}
                                         years={field.years}
