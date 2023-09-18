@@ -127,7 +127,7 @@ export const universities = [
     EnName: "Arab International University",
     acronym: "AIU",
     image: `/images/unis/AIU.jpg`,
-    mainImage: `/Unis Logo/AIU.png`, // fOR card
+    mainImage: `/Unis Logo/AIU2.png`, // fOR card
     website: "https://www.aiu.edu.sy/",
     facebook: "https://fb.com/ArabInternationalUniversity",
     address: "أوتستراد (دمشق - درعا) - غباغب",
@@ -534,7 +534,7 @@ export const universities = [
     EnName: "Ebla Private University",
     acronym: "EBLA",
     image: "/images/unis/Ebla.jpg",
-    mainImage: `/Unis Logo/EBLA.png`,
+    mainImage: `/Unis Logo/Ebla.png`,
     website: "http://www.ebla.edu.sy/ar/home",
     facebook: "https://fb.com/eblauniversity",
     address: "حلب - الحمدانية",
