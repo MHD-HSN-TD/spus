@@ -3,7 +3,6 @@
 import Card from "@/components/Card/Card"
 import Table from "@/components/Table/Table"
 import { universities } from "@/store/universities"
-import { unv } from "@/store/univs"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -13,7 +12,7 @@ export async function generateMetadata({ params, searchParams }) {
     const id = params.uni_id
 
     //#  map over the {umn} arr and find the the name from the page's id a
-    const title = unv.map(el => (el.id == id) && el.name)
+    const title = universities.map(el => (el.id == id) && el.name)
 
     //#  for over the {title} arr and return the name where index in "title" arr === page id
     for (let index = 0; index < title.length; index++) {
