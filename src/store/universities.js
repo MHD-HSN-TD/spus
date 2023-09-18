@@ -73,7 +73,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "كلية الحقوق",
         address: "دمشق - البرامكة",
         years: "4",
@@ -113,7 +113,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "كلية الحقوق",
         address: "اللاذقية - الصليبة",
         years: "4",
@@ -186,7 +186,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "الحقوق",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -309,7 +309,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "الحقوق",
         address: "أوتستراد (دمشق - درعا) - غباغب",
         years: "4",
@@ -650,7 +650,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "الحقوق",
         address: "ريف دمشق - معرة صيدنايا",
         years: "4",
@@ -837,7 +837,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "الحقوق",
         address: "اوتوستراد حمص طرطوس - مفرق وادي النصارى",
         years: "4",
@@ -929,7 +929,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "الحقوق",
         address: "حمص - الحواش",
         years: "4",
@@ -1322,7 +1322,7 @@ export const universities = [
       },
       {
         specialization: "LAW",
-        icon: "/icons/LAW.png",
+        icon: "/icons/LAW1.png",
         name: "الحقوق",
         address: "KR",
         years: "4",
