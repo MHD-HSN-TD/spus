@@ -41,7 +41,7 @@ export const universities = [
     fieldsForCards: [
       {
         specialization: " HM",
-        icon: `/icons/".png`,
+        icon: `/icons/"HM.png`,
         name: "الطب البشري",
         address: "دمشق - التل",
         years: "6",
