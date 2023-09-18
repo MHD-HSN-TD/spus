@@ -533,7 +533,7 @@ export const universities = [
     name: "جامعة إيبلا الخاصة",
     EnName: "Ebla Private University",
     acronym: "EBLA",
-    image: "/images/unis/Ebla.jpg",
+    image: "/images/unis/EBLA.jpg",
     mainImage: `/Unis Logo/Ebla.png`,
     website: "http://www.ebla.edu.sy/ar/home",
     facebook: "https://fb.com/eblauniversity",
