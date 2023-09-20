@@ -171,7 +171,7 @@ const About = ({ id }) => {
 
             {about.map(uni => {
                 if (uni.id === id) {
-                    return <div className=" lg:mx-10 lg:text-2xl py-3 ">
+                    return <div className=" lg:mx-10 lg:text-2xl py-3 " key={uni.id}>
                         <h2 className="font-bold">لمحة سريعة :</h2>
                         <p className="text-base  tracking-wide text-justify">{uni.data}</p>
                     </div>

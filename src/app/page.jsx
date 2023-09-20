@@ -9,7 +9,7 @@ export default function Home() {
     <div className="  hero lg:min-h-screen text-center lg:text-start  ">
       <div className="hero-content flex-col lg:flex-row gap-8 w-11/12">
         <div className=''>
-          <h1 className=" font-bold uppercase  text-transparent text-5xl bg-clip-text bg-gradient-to-b from-success to-white  leading-snug ">{title}</h1>
+          <h1 className=" font-bold uppercase  text-transparent text-5xl bg-clip-text bg-gradient-to-b from-success to-green-300  leading-snug ">{title}</h1>
 
           <p className="py-10  text-xl">{SubTitle}</p>
           <div className='flex align-middle justify-center lg:block '>

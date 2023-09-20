@@ -31,8 +31,6 @@ const Uni = (props) => {
 
 
     const idOfPage = props.params.uni_id
-    const overView = `
-أحدثت جَامعة المَنارة بموجب المرسوم رقم/ 108/ في 31 آذار 2016، وتمت الموافقة على افتتاحها بموجب قرار مجلس التعليم العالي رقم /266/ في 17 تموز 2016، وقرار السيد وزير التعليم العالي رقم / 114/ في 6 تشرين الثاني 2016. في المبنى المؤقت في مدينة اللاذقية – المشروع العاشر وبدأت بتنفيذ برامجها الأكاديمية في 6 تشرين الثاني 2016.`
 
     const layoutOfUniv = universities.map(uni => (uni.id == idOfPage) && <div className="  " key={uni.id} >
         <div className=" ">
@@ -47,7 +45,7 @@ const Uni = (props) => {
 
             {/* the img and the  overView */}
             <section className="  m-10">
-                <Image src={uni.image} width={1000} height={1000} className="mx-auto " loader={Loading.jsx} loading={"eager"} />
+                <Image src={uni.image} width={1000} height={1000} className="mx-auto " alt={uni.name} loading={"eager"} />
                 {/* uni info */}
                 <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-black  ">
                     <h2 className="text-3xl font-bold">{uni.name} <span className='text-white'>{uni.acronym}</span></h2>
@@ -108,12 +106,13 @@ const Uni = (props) => {
             {/*  table start */}
             <div>
                 {/* table info display */}
-                <div className="">
-                    <span></span>
+                <div className="py-3 m-10 lg:mx-20  ">
+                    <div className="font-bold lg:text-2xl lg:my-2 my-1 "> وفي ما يلي  :</div>
+                    <span className="">   تلخيص سريع يعرض اسعار كل الكليات الموجودة داخل الكلية مع عدد الساعات الموافق لكل فرع   </span>
                 </div>
                 {/* table display */}
-                <div className=" mx-auto lg:w-4/6 lg:text-lg text-xs p-4">
-                    <div>
+                <div className="lg:text-lg  p-4 ">
+                    <div className="text-center">
                         <Table></Table>
 
                     </div>

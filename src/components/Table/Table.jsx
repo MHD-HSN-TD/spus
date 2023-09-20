@@ -100,14 +100,13 @@ const Table = () => {
             ]
         }]
     return (
-        <div className="overflow-x-auto">
-            <table className=" lg:table-lg table-xs table-zebra ">
+        <div className="overflow-x-auto  ">
+            <table className=" lg:table-lg table-xs table-zebra mx-auto ">
                 {/* head */}
-                <thead>
+                <thead className="text-lg">
                     <tr>
                         <th></th>
-                        <th> </th>
-                        <th>اسم الكلية</th>
+                        <th className="">اسم الكلية</th>
                         <th>عدد الساعات</th>
                         <th>ثمن الساعة</th>
                         <th>متوسط تكلفة الدراسة سنويا</th>
@@ -117,7 +116,7 @@ const Table = () => {
                     {/* row 1 */}
                     {tableInfo.map((row, index) => <tr className="">
                         <td ></td>
-                        <th >{index + 1}</th>
+                        {/* <th >{index + 1}</th> */}
                         <th >{row.name}</th>
                         <td >{row.hours}</td>
                         <td >{row.hourPrice}</td>
