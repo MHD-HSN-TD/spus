@@ -6,6 +6,7 @@ import { universities } from "@/store/universities"
 import Image from "next/image"
 import Link from "next/link"
 import Loading from "../loading"
+import About from "@/components/About/About"
 
 
 
@@ -65,10 +66,7 @@ const Uni = (props) => {
                 </div>
 
                 {/* uni about */}
-                <div className=" lg:mx-10 lg:text-2xl py-3 ">
-                    <h2 className="font-bold">لمحة سريعة :</h2>
-                    <p className="text-base  tracking-wide text-justify">{overView}</p>
-                </div>
+                <About id={uni.id}></About>
             </section>
 
         </div>
@@ -81,7 +79,7 @@ const Uni = (props) => {
         <section className="">
             {layoutOfUniv}
             < div className="my-10">
-                <h1 className="font-bold  m-10 ">  الاختصاصات الموجودة   :   <span></span> </h1>
+                <h1 className="font-bold  m-10 lg:mx-20 lg:text-2xl py-3 ">  الاختصاصات الموجودة   :   <span></span> </h1>
 
                 <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:m-10 m-2">
                     {/*//? map over the fields  */}
