@@ -11,9 +11,9 @@ const CardAbout = ({ name, image, about, person, facebook, telegram, linkedIn, w
                 <figure className="max-w-xs max-h-80 m-1 justify-center">
                     <Image src={image} alt={name} height={200} width={200} className='lg:w-52 lg:h-52 w-36 h-36' />
                 </figure>
-                <div className="card-body justify-center items-center text-center px-4 text-lg">
-                    <h2 className="card-title">{name} </h2>
-                    <h2 className="my-1 opacity-60 ">{about} </h2>
+                <div className="  text-center lg:px-4 p-1 text-lg">
+                    <h2 className=" text-xl font-semibold">{name} </h2>
+                    <h2 className="my-2 opacity-60 ">{about} </h2>
 
                     <div className="ps-6 flex gap-5 flex-wrap justify-center items-center   ">
 
