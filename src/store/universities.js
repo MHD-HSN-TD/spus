@@ -1163,7 +1163,7 @@ export const universities = [
     EnName: "International University For Science and Technology",
     acronym: "IUST",
     image: "/images/unis/IUST.jpg",
-    mainImage: `/Unis Logo/UOK.gif`,
+    mainImage: `/Unis Logo/IUST.png`,
     website: "https://iust.edu.sy/ar/",
     facebook: "https://fb.com/iustofficial1",
     address: "أوتستراد (دمشق - درعا) - غباغب",
