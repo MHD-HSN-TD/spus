@@ -18,7 +18,7 @@ const about = () => {
                     <h1 className="lg:text-3xl text-lg text-warning my-4 font-semibold ">من<span className=""> نحن </span> :</h1>
                     <p className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</p>
                 </div>
-                <Image src={'/images/about.png'} width={500} height={500} alt="about us" />
+                <Image src={'/images/about.png'} width={500} height={500} alt="about us" className="lg:mr-10 mx-auto" />
             </div>
             {/* -------------Header ends------------- */}
 
@@ -29,7 +29,13 @@ const about = () => {
                     {team.map((member, index) =>
                         // console.log(member.imageHref)
                         <CardAbout
-                            person={`${memberNames[index]}`}
+                            facebook={member.facebook}
+                            telegram={member.telegram}
+                            linkedIn={member.linkedIn}
+                            whatsapp={member.whatsapp}
+                            github={member.github}
+                            email={member.email}
+                            phone={member.phone}
                             key={member.id}
                             image={member.imageHref}
                             about={member.about}

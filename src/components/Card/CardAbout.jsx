@@ -3,7 +3,7 @@ import { social } from '../Footer/socail'
 import SocialIcons from '../SocialIcons/SocialIcons'
 import { team } from '@/app/(static)/about/about'
 
-const CardAbout = ({ name, image, about, person }) => {
+const CardAbout = ({ name, image, about, person, facebook, telegram, linkedIn, whatsapp, github, email, phone }) => {
 
     return (
         <div>
@@ -15,35 +15,20 @@ const CardAbout = ({ name, image, about, person }) => {
                     <h2 className="card-title">{name} </h2>
                     <h2 className="my-1">{about} </h2>
 
-                    <div className="ps-6 flex gap-5 flex-wrap justify-center   ">
-                        {
+                    <div className="ps-6 flex gap-5 flex-wrap justify-center items-center   ">
 
-                        }
-                        <SocialIcons person={person}></SocialIcons>
+                        <SocialIcons
+                            facebook={facebook}
+                            telegram={telegram}
+                            linkedIn={linkedIn}
+                            whatsapp={whatsapp}
+                            github={github}
+                            email={email}
+                            phone={phone}
+                            person={person}
+                        ></SocialIcons>
 
                     </div>
-
-                    {/* Type one */}
-                    {/* <div className="ps-6 ">
-                        <p className="py-1">
-                            الهاتف : <span dir="ltr"> {phone}</span>
-                        </p>
-                        <p className="py-1">
-                            Email : <a > {email}</a>
-                        </p>
-                        <p className="py-1">
-                            FaceBook : <span > {facebook}</span>
-                        </p>
-                        <p className="py-1">
-                            LinkedIn : <a > {linkedIn}</a>
-                        </p>
-                        <p className="py-1">
-                            Telegram : <span > {telegram}</span>
-                        </p>
-                        <p className="py-1">
-                            Github : <a > {github}</a>
-                        </p>
-                    </div> */}
 
                 </div>
             </div>

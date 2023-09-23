@@ -4,6 +4,22 @@ import { social } from "./socail"
 import SocialIcons from "../SocialIcons/SocialIcons"
 
 const Footer = () => {
+    const socialMediaData = {
+        id: 3,
+        nameENG: "SPUS",
+        name: "موقع الجامعات السورية الخاصة",
+        about: "",
+        imageHref: "",
+        phone: "+96399739174",
+        email: "info@spus.sy",
+        facebook: "https://www.facebook.com/mhammad.tadomori",
+        linkedIn: false,
+        telegram: "https://t.me/yahyasbini",
+        github: false,
+        whatsapp: "96399739174",
+    };
+
+
     return (
         <footer className="footer p-10 bg-neutral text-neutral-content">
             <div>
@@ -26,7 +42,12 @@ const Footer = () => {
             <div>
                 <span className="footer-title">Social</span>
                 <div className="grid  gap-10 grid-cols-3">
-                    <SocialIcons person={"hsn"}></SocialIcons>
+                    <SocialIcons
+                        facebook={socialMediaData.facebook}
+                        whatsapp={socialMediaData.whatsapp}
+                        phone={socialMediaData.phone}
+                        telegram={socialMediaData.telegram}
+                    ></SocialIcons>
                 </div>
             </div>
             {/* //?-----social ends------- */}
