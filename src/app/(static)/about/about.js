@@ -19,7 +19,7 @@ export const team = [
     id: 2,
     nameENG: "YEH",
     name: "محمد يحيى سبيني",
-    about: "Software Engineere",
+    about: "Software Engineer",
     imageHref: "/images/yehia about.jpg",
     phone: "0991176122",
     email: "yahyasbini@gmail.com",
