@@ -15,7 +15,7 @@ const CardAbout = ({ name, image, about, person, facebook, telegram, linkedIn, w
                     <h2 className=" text-xl font-semibold">{name} </h2>
                     <h2 className="my-2 opacity-60 ">{about} </h2>
 
-                    <div className="ps-6 flex gap-5 flex-wrap justify-center items-center   ">
+                    <div className="py-3 flex gap-5 flex-wrap justify-center items-center   ">
 
                         <SocialIcons
                             facebook={facebook}
