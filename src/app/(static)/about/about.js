@@ -8,7 +8,8 @@ export const team = [
     phone: "+963 997 391 745",
     email: "Mhdhasan.alkhalil@gmail.com",
     facebook: "https://www.facebook.com/mhammad.tadmori/",
-    facebook: "fb://profile/mhammad.tadmori",
+    facebook:
+      "https://www.facebook.com/mhammad.tadmori/?locale=hi_IN&paipv=0&eav=AfZa44NeZp7eI5CeJjtfuZNuRKsPA56m_o3SF4-oolQl_acJt7vFrecoglQn4rJmB8Afb://profile/mhammad.tadmori",
 
     telegram: "https://t.me/HasnTD",
     linkedIn: "https://www.linkedin.com/in/mhd-hasan-tadmori/",
