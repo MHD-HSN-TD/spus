@@ -7,8 +7,8 @@ export const metadata = {
     description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
 }
 const about = () => {
-    const whoISUs = `نحن نؤمن بأن التعليم هو مفتاح النجاح وباب الفرص المستقبلية. في موقعنا الالكتروني، نسعى لتسهيل وتبسيط عملية التسجيل في الجامعات للطلاب. نحن فريق متخصص من المستشارين التعليميين ومطوري الويب الذين يعملون بجد لتوفير مصادر وأدوات قوية لمساعدتكم في هذه الرحلة الهامة.`
-    const memberNames = ['hsn', 'yeh']
+    const whoISUs = ` نحن فريق مهمتنا تزويدكم بمعلومات شاملة ومحدثة حول جميع الجامعات الخاصة في سوريا. 
+نحن نتفهم أن اختيار الجامعة المناسبة هو لحظة حاسمة في حياة كل طالب، ومنصتنا مصممة لتسهيل هذا القرار ، و نقدم رؤى قيمة حول موقع كل جامعة، والكليات المتاحة، والمزيد..`; const memberNames = ['hsn', 'yeh']
 
     return (
         <section className=" bg">
@@ -18,12 +18,7 @@ const about = () => {
                     <h1 className="lg:text-3xl text-lg text-warning my-4 font-semibold ">من<span className=""> نحن </span> :</h1>
                     <p className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</p>
                 </div>
-                <Image
-                    src={'/images/about.png'}
-                    width={500}
-                    height={500}
-                    alt="about us"
-                />
+                <Image src={'/images/about.png'} width={500} height={500} alt="about us" />
             </div>
             {/* -------------Header ends------------- */}
 

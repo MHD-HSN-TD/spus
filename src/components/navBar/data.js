@@ -11,7 +11,7 @@ const links = [
   },
   {
     id: 3,
-    name: "من نحن",
+    name: "حول الموقع ",
     href: "/about",
   },
   // {
@@ -19,11 +19,11 @@ const links = [
   //   name: "المدونة",
   //   href: "/blog",
   // },
-  {
-    id: 4,
-    name: "نواصل معنا",
-    href: "/contact",
-  },
+  // {
+  //   id: 4,
+  //   name: "نواصل معنا",
+  //   href: "/contact",
+  // },
 ];
 
 export default links;
