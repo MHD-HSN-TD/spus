@@ -33,7 +33,7 @@ const SocialIcons = ({ name, image, about, person, whatsapp, facebook, telegram,
     const mobile = getMobileOperatingSystem()
     const icons = {
         facebook: "/images/icons/facebook.png",
-        linkedIn: "/images/icons/linkedIn.png",
+        linkedIn: "/images/icons/linkedin.png",
         telegram: "/images/icons/telegram.png",
         github: "/images/icons/github.png",
         whatsapp: "/images/icons/whatsapp.png",
