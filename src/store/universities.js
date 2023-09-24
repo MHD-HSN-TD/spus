@@ -358,7 +358,7 @@ export const universities = [
       },
     ],
   },
-{
+  {
     id: 15,
     name: "جامعة الشام الخاصة",
     EnName: "Al-Sham  Private Universit",
@@ -371,7 +371,7 @@ export const universities = [
     phoneA: "0096311-2066",
     phoneB: "X",
     phoneC: "X",
-    fieldsForFilter: ["HM", "PHY", "CCE", "IRD", "LAW", "BA","DNT"],
+    fieldsForFilter: ["HM", "PHY", "CCE", "IRD", "LAW", "BA", "DNT"],
     fieldsForCards: [
       {
         specialization: "HM",
@@ -382,7 +382,7 @@ export const universities = [
         hours: "250",
       },
 
-    {
+      {
         specialization: "PHY",
         icon: "/icons/PHY.png",
         name: "الصيدلة",
@@ -398,7 +398,7 @@ export const universities = [
         years: "5",
         hours: "175",
       },
-       {
+      {
         specialization: "CCE",
         icon: "/icons/CCE.png",
         name: "الهندسة المعلوماتية والإتصالات",
@@ -406,7 +406,7 @@ export const universities = [
         years: "5",
         hours: "165",
       },
-       {
+      {
         specialization: "IRD",
         icon: "/icons/CCE.png",
         name: "العلاقات الدولية والدبلوماسية ",
@@ -414,7 +414,7 @@ export const universities = [
         years: "5",
         hours: "135",
       },
-       {
+      {
         specialization: "LAW",
         icon: "/icons/LAW1.png",
         name: "الحقوق",
@@ -422,7 +422,7 @@ export const universities = [
         years: "4",
         hours: "135",
       },
-{
+      {
         specialization: "LAW",
         icon: "/icons/LAW1.png",
         name: "الحقوق",
@@ -430,14 +430,14 @@ export const universities = [
         years: "4",
         hours: "135",
       },
-         {
+      {
         specialization: "BA",
         icon: "/icons/BA.png",
         name: "إدارة الأعمال",
         address: "دمشق - البرامكة ",
         years: "4",
         hours: "135",
-      },   
+      },
       {
         specialization: "BA",
         icon: "/icons/BA.png",
@@ -455,7 +455,7 @@ export const universities = [
         years: "5",
         hours: "190",
       },
-       {
+      {
         specialization: "DNT",
         icon: "/icons/DNT.png",
         name: "طب الأسنان",
@@ -463,8 +463,6 @@ export const universities = [
         years: "5",
         hours: "190",
       },
-    
-    
     ],
   },
   {

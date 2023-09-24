@@ -40,9 +40,12 @@ const Uni = (props) => {
     }
     // console.log(date())
     const idOfPage = props.params.uni_id
+    let uniAcronym = ''
+    console.log(idOfPage)
 
     const layoutOfUniv = universities.map(uni => (uni.id == idOfPage) && <div className="  " key={uni.id} >
         <div className=" ">
+            {uniAcronym = uni.acronym}
             {/* the header and the bach button */}
             <div>
                 <h1 className=" bg-accent-focus lg:text-4xl text-xl p-3 ">{uni.name} <span className="text-white font-medium">{uni.acronym}</span></h1>
@@ -126,9 +129,10 @@ const Uni = (props) => {
                     </div>
                 </div>
                 {/* table display */}
-                <div className="lg:text-lg  lg:p-4 p-1 ">
+                <div className="lg:text-lg  lg:p-4  ">
                     <div className="text-center">
-                        <Table id={idOfPage}></Table>
+                        {console.log(uniAcronym)}
+                        <Table acronym={uniAcronym} ></Table>
 
                     </div>
 

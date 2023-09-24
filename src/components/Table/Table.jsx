@@ -2,13 +2,13 @@
 
 import { allTablesData } from "./tablesData"
 
-const Table = ({ id }) => {
+const Table = ({ acronym }) => {
 
     return (
         <div className="overflow-x-auto  ">
             <table className=" lg:table-lg table-md table-zebra mx-auto ">
                 {/* head */}
-                <thead className="text-lg">
+                <thead className="lg:text-lg">
                     <tr>
                         {/* <th></th> */}
 
@@ -22,7 +22,7 @@ const Table = ({ id }) => {
                 <tbody className="text-xl">
                     {
                         allTablesData.map((uni, index) => {
-                            if (id == uni.id) {
+                            if (acronym == uni.name) {
                                 return uni.tableInfo.map(row => {
                                     return <tr className="text-lg">
                                         {/* <td ></td> */}
