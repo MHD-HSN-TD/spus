@@ -16,7 +16,7 @@ const Filter = () => {
     const par = `حدد اي فرع تود ان تأخد المعلومات عنه من خلال استخدام الـفلتـــر ادناه`
     return (
         <div className="">
-            <p className="text-lg font-semibold p-6">{par}</p>
+            <p className="text-lg font-semibold p-6 text-warning">{par}</p>
             <label htmlFor="category" className=" text-lg font-bold px-6">اختر الكلية المطلوبة  :  </label>
             <select
                 className="select  select-success w-full max-w-xs px-10 my-4 mx-4" dir='rtl'

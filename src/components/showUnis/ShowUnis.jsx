@@ -26,6 +26,7 @@ const ShowUnis = () => {
                                 <Card
                                     id={el.id}
                                     name={el.name}
+                                    acronym={el.acronym}
                                     address={el.address}
                                     phoneA={el.phoneA}
                                     phoneB={el.phoneB}

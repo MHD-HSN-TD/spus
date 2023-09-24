@@ -10,18 +10,18 @@ export default function Home() {
     <div className="  hero lg:min-h-screen text-center lg:text-start  ">
       <div className="hero-content flex-col lg:flex-row gap-8 w-11/12">
         <div className=''>
-          <h1 className=" font-bold uppercase  text-transparent text-3xl bg-clip-text bg-gradient-to-b from-success to-green-300  leading-snug ">{title}</h1>
+          <h1 className=" font-bold uppercase  text-transparent text-3xl text-warning  leading-snug ">{title}</h1>
 
           <p className="py-10  text-xl">{SubTitle}</p>
           <div className='flex align-middle justify-center lg:block '>
             <Link href={'/unis'}>
-              <button className="btn btn-success sm:mx-auto" >ابدأ  من هنا </button>
+              <button className="btn btn-warning sm:mx-auto" >ابدأ  من هنا </button>
             </Link>
           </div>
         </div>
         <Image
           src="/images/unii.png"
-          className="max-w-sm rounded-lg shadow-2xl w-3/4 lg:mr-10"
+          className="max-w-sm rounded-lg  w-3/4 lg:mr-10"
           alt='hero section'
           width={380}
           height={380} />

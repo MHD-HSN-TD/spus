@@ -24,10 +24,10 @@ const Footer = () => {
         <footer className="footer p-10 bg-neutral text-neutral-content">
             <div>
                 <Image src="/images/footer_img.png" alt="hsn photo" width={126} height={126} className="w-auto h-auto" />
-                <p className="">كل الحقوق محفوظة    2023 <span> ©</span> </p>
+                <p className="font-bold">كل الحقوق محفوظة    2023 <span> ©</span> </p>
                 <div className="flex gap-3">
-                    <p> لمزيد من التفاصيل : </p>
-                    <p className=""><a className="text-gray-50 " href="https://github.com/MHD-HSN-TD" target="_blank"> MHD Hasn AL-Khalil Tadmori </a></p>
+                    <p className="font-bold"> لمزيد من التفاصيل : </p>
+                    <p className=""><a className="text-gray-50 " href={`https://wa.me/963967586966`} target='_blank'> MHD Hasn AL-Khalil Tadmori </a></p>
                 </div>
             </div>
             {/* //#-----links start------- */}

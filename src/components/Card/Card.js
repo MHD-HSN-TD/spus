@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 const Card = ({
+  acronym,
   id,
   name,
   address,
@@ -28,7 +29,10 @@ const Card = ({
       </div>
       {/* card info */}
       <div className="text-center px-2 lg:pt-5">
-        <h2 className="font-semibold text-lg">{name} </h2>
+        <h2 className="font-semibold text-lg">
+          {` ${name}   `}
+          <span className="px-2 text-warning"> {acronym}</span>
+        </h2>
         <div className="py-6 lg:text-right">
           <p className="py-1">
             <span className="font-semibold mx-2"> العنوان :</span>
