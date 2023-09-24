@@ -119,7 +119,7 @@ const Uni = (props) => {
                 {/* table display */}
                 <div className="lg:text-lg  p-4 ">
                     <div className="text-center">
-                        <Table></Table>
+                        <Table id={idOfPage}></Table>
 
                     </div>
 
