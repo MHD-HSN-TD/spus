@@ -31,16 +31,16 @@ const Card = ({
       <div className="text-center px-2 lg:pt-5">
         <h2 className="font-semibold text-lg">
           {` ${name}   `}
-          <span className="px-2 text-warning"> {acronym}</span>
+          <span className="px-4 text-warning"> {acronym}</span>
         </h2>
         <div className="py-6 lg:text-right">
           <p className="py-1">
-            <h2 className="font-semibold mx-2"> العنوان :</h2>
+            <span className="font-semibold mx-2"> العنوان :</span>
             <span> {address}</span>
           </p>
           {phoneA && (
             <p className="py-1 font-medium">
-              <h2 className="font-semibold mx-2"> الهاتف 1 : </h2>
+              <span className="font-semibold mx-2"> الهاتف 1 : </span>
               <span dir="ltr" className="lg:inline-block block">
                 {phoneA}
               </span>
@@ -48,7 +48,7 @@ const Card = ({
           )}
           {phoneB && (
             <p className="py-1 font-medium">
-              <h2 className="font-semibold mx-2"> الهاتف 2 : </h2>
+              <span className="font-semibold mx-2"> الهاتف 2 : </span>
               <span dir="ltr" className="lg:inline-block block">
                 {phoneB}
               </span>
@@ -85,13 +85,13 @@ const Card = ({
           {years && (
             <div>
               <p className="py-1 font-medium">
-                <h2 className="font-semibold mx-2 ">عدد سنين الدراسة:</h2>
+                <span className="font-semibold mx-2 ">عدد سنين الدراسة:</span>
                 <span dir="ltr" className="lg:inline-block block">
                   {years}
                 </span>
               </p>
               <p className="py-1 font-medium">
-                <h2 className="font-semibold mx-2">عدد الساعات :</h2>
+                <span className="font-semibold mx-2">عدد الساعات :</span>
                 <span dir="ltr" className="lg:inline-block block">
                   {hours}
                 </span>
