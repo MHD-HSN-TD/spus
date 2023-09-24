@@ -18,7 +18,7 @@ const about = () => {
             <div className="flex lg:flex-row flex-col-reverse   justify-center items-center lg:px-32 px-10  ">
                 <div>
                     <h1 className="lg:text-2xl text-lg text-warning my-4 font-semibold ">من<span className=""> نحن </span> :</h1>
-                    <p className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</p>
+                    <h3 className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</h3>
                 </div>
                 <Image src={'/images/about.png'} width={500} height={500} alt="about us" className="lg:mr-10 mx-auto" />
             </div>

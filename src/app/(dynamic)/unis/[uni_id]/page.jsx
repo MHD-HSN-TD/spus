@@ -48,17 +48,17 @@ const Uni = (props) => {
                 <Image src={uni.image} width={1000} height={1000} className="mx-auto " alt={uni.name} loading={"eager"} />
                 {/* uni info */}
                 <div className=" lg:mx-10 px-3 lg:text-xl py-3 lg:px-2 rounded-md my-3 bg-accent font-medium text-black  ">
-                    <h2 className="text-3xl font-bold">{uni.name} <span className='font-extrabold text-3xl'>{` " ${uni.acronym} "`}</span></h2>
+                    <h1 className="text-3xl font-bold">{uni.name} <span className='font-extrabold text-3xl'>{` " ${uni.acronym} "`}</span></h1>
                     <div className="pt-6 pb-1 ">
-                        <p className="py-2"><span className="font-semibold  ml-2">العنوان : </span><span> {uni.address}</span></p>
-                        <p className="py-2"><span className="font-semibold ml-2"> الهاتف 1:</span><span dir="ltr"> {uni.phoneA}</span></p>
+                        <h2 className="py-2"><span className="font-semibold  ml-2">العنوان : </span><span> {uni.address}</span></h2>
+                        <h2 className="py-2"><span className="font-semibold ml-2"> الهاتف 1:</span><span dir="ltr"> {uni.phoneA}</span></h2>
                         {uni.phoneB && (<p className="py-2"><span className="font-semibold ml-2"> الهاتف 2:</span><span dir="ltr"> {uni.phoneB}</span></p>)}
                         <div className="py-2">
                             <span className="font-semibold ml-2">الموقع الالكتروني :</span>
                             <span> <a href={uni.website} className="text-xs lg:text-base" target="_blank">{uni.website}</a></span>
                         </div>
                         <div className="py-2 w-">
-                            <span className="font-semibold ml-2">حساب الفيسبوك :</span><span> <a href={uni.facebook} className=" text-xs lg:text-base  " target="_blank">{uni.facebook}</a></span>
+                            <h2 className="font-semibold ml-2">حساب الفيسبوك :</h2><span> <a href={uni.facebook} className=" text-xs lg:text-base  " target="_blank">{uni.facebook}</a></span>
                         </div>
                     </div>
                 </div>
