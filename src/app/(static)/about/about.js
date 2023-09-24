@@ -5,7 +5,7 @@ export const team = [
     name: "محمد حسن الخليل تدمري",
     imageHref: "/images/hsn about.jpg",
     about: "Computer and automation Engineer  ",
-    phone: "+963 997 391 745",
+    phone: "+963 967 586 966",
     email: "Mhdhasan.alkhalil@gmail.com",
     facebook: "https://www.facebook.com/mhammad.tadmori/",
     // facebook:"https://www.facebook.com/mhammad.tadmori/?locale=hi_IN&paipv=0&eav=AfZa44NeZp7eI5CeJjtfuZNuRKsPA56m_o3SF4-oolQl_acJt7vFrecoglQn4rJmB8Afb://profile/mhammad.tadmori",
@@ -13,7 +13,7 @@ export const team = [
     telegram: "https://t.me/HasnTD",
     linkedIn: "https://www.linkedin.com/in/mhd-hasan-tadmori/",
     github: "https://github.com/MHD-HSN-TD",
-    whatsapp: "963997391745",
+    whatsapp: "963967586966",
   },
   {
     id: 2,
