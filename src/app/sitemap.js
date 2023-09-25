@@ -19,7 +19,7 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
-      url: "https://spus.vercel.app/unis/*",
+      url: "https://spus.vercel.app/unis/**",
       lastModified: new Date(),
       changeFrequency: "weakly",
       priority: 0.6,
