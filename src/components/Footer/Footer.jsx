@@ -5,7 +5,6 @@ import SocialIcons from "../SocialIcons/SocialIcons"
 
 const Footer = () => {
     const socialMediaData = {
-        id: 3,
         nameENG: "SPUS",
         name: "موقع الجامعات السورية الخاصة",
         about: "",
@@ -21,9 +20,9 @@ const Footer = () => {
 
 
     return (
-        <footer className="footer p-10 bg-neutral text-neutral-content">
+        <footer className="footer lg:p-5 p-4 bg-neutral text-neutral-content">
             <div>
-                <Image src="/images/footer_img.png" alt="hsn photo" width={126} height={126} className="w-auto h-auto" />
+                <Image src="/images/footer_img.png" alt="logo" width={126} height={126} className="w-auto h-auto" />
                 <p className="font-bold">كل الحقوق محفوظة    2023 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p className="font-bold"> لمزيد من التفاصيل : </p>
@@ -41,7 +40,7 @@ const Footer = () => {
             {/* //?-----social start------- */}
             <div>
                 <span className="footer-title">Social</span>
-                <div className="grid  gap-10 grid-cols-3">
+                <div className="flex  gap-4">
                     <SocialIcons
                         facebook={socialMediaData.facebook}
                         whatsapp={socialMediaData.whatsapp}

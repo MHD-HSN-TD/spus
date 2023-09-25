@@ -10,8 +10,7 @@ export const metadata = {
 const about = () => {
     const whoISUs = ` نحن فريق مهمتنا تزويدكم بمعلومات شاملة ومحدثة حول جميع الجامعات الخاصة في سوريا. 
 نحن نتفهم أن اختيار الجامعة المناسبة هو لحظة حاسمة في حياة كل طالب، ومنصتنا مصممة لتسهيل هذا القرار ، و نقدم رؤى قيمة حول موقع كل جامعة، والكليات المتاحة، والمزيد..`; const memberNames = ['hsn', 'yeh']
-    const contactUs = `يمكنكم دائماً احبتنا التواصل معنا من خلال الايميل او الهاتف 
-    نحن نرحب  بأفكاركم النيرة وجاهزين لأي إستفسار`;
+    const contactUs = `بإمكانكم دائمًا التواصل معنا عبر البريد الإلكتروني أو الهاتف. نحن ممتنون لاستقبال أفكاركم القيمة ونتطلع إلى الإجابة على أي استفسار.`;
     return (
         <section className=" bg">
             {/* -------------Header------------- */}
@@ -27,7 +26,7 @@ const about = () => {
             {/* -------------Meet our teams------------- */}
             <div className="lg:px-32 px-10 text-3xl  my-4">
                 <p className="text-warning my-10 lg:text-2xl text-lg font-semibold  ">تعرف على فريقنــــا :</p>
-                <div className="flex gap-x-16 justify-around flex-wrap gap-y-5">
+                <div className="flex gap-x-40 justify-center flex-wrap gap-y-5">
                     {team.map((member, index) =>
                         // console.log(member.imageHref)
                         <CardAbout
@@ -60,11 +59,11 @@ const about = () => {
                     <h1 className="lg:text-2xl text-lg text-warning my-4 font-semibold ">تواصل<span className="">   معنـــــــــــــا عبر  </span> :</h1>
                     <p className="lg:text-2xl text-sm font-medium leading-loose text-justify">{contactUs}</p>
                 </div>
-                <div className="lg:flex justify-center items-center gap-10">
-                    <ContactUs src={`/images/icons/mail.gif`} caption="media@spus.sy" title="الايميل" Email='info@spus.sy' />
-                    <ContactUs src={`/images/icons/phone 2.gif`} title="الهاتف" Phone1={`+963 997 391 745`} Phone2={`+963-991-176-122`} />
-                    <ContactUs src={`/images/icons/gps.gif`} address="سوريا - دمشق " title="العنوان" />
 
+                <div className="lg:flex justify-center items-center gap-10">
+                    <ContactUs src={`/images/icons/gmail.png`} caption="media@spus.sy" title="الايميل" Email='info@spus.sy' />
+                    <ContactUs src={`/images/icons/phone 2.png`} title="الهاتف" Phone1={`+963 997 391 745`} Phone2={`+963 967 586 966`} />
+                    <ContactUs src={`/images/icons/gps.png`} address="سوريا - دمشق " title="العنوان" />
                 </div>
 
             </div>

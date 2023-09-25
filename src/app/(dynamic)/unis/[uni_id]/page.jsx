@@ -45,7 +45,10 @@ const Uni = (props) => {
 
     const layoutOfUniv = universities.map(uni => (uni.id == idOfPage) && <div className="  " key={uni.id} >
         <div className=" ">
-            {uniAcronym = uni.acronym}
+            <div className="hidden">
+                {uniAcronym = uni.acronym}
+            </div>
+
             {/* the header and the bach button */}
             <div>
                 <h1 className=" bg-accent-focus lg:text-4xl text-xl p-3 ">{uni.name} <span className="text-white font-medium">{uni.acronym}</span></h1>

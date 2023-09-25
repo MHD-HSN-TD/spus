@@ -358,7 +358,6 @@ export const universities = [
       },
     ],
   },
-
   {
     id: 2,
     name: "جامعة الشهباء الخاصة",
