@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
       <head>
+        <meta name="google-site-verification" content="FAb62nnQ0FioK9c_xRCZl2Rmv8sjfdZAErl5Bt3Iqhs" />
         {/* set favIcone */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
