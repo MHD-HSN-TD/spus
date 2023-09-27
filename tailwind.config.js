@@ -1,6 +1,5 @@
 // @ts-check
 
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -53,6 +52,6 @@ module.exports = {
     ],
     rtl: true,
   },
-  plugins: [require("daisyui"),],
+  plugins: [require("daisyui")],
   //...
 };
