@@ -17,7 +17,7 @@ export default async function Home() {
         <div className=''>
           <h1 className=" font-bold uppercase  text-transparent text-3xl text-warning  leading-snug ">{title}</h1>
 
-          <p className="py-10  text-xl leading-10">{SubTitle}</p>
+          <p className="py-10  text-xl leading-10 font-semibold">{SubTitle}</p>
           <div className='flex align-middle justify-center lg:block '>
             <Link href={'/unis'}>
               <button className="btn btn-warning sm:mx-auto" >ابدأ  من هنا </button>
