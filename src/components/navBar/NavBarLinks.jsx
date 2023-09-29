@@ -8,7 +8,7 @@ const NavBarLinks = () => {
     return (
         <>
             {links.map(link => <li key={link.div}>
-                <Link className="mx-2 text-base" href={link.href} > {link.name}</ Link></li>)}
+                <Link className="mx-2 text-base font-bold" href={link.href} > {link.name}</ Link></li>)}
         </>
     )
 }

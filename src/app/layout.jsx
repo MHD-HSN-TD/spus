@@ -8,7 +8,7 @@ import NavBar from '@/components/navBar/NavBar'
 
 
 // const ciaro = Cairo({ subsets: ['arabic'], weight: ['400'] })
-const alexandria = Alexandria({ subsets: ['arabic'], weight: ['200', '100',] })
+const alexandria = Alexandria({ subsets: ['arabic'], weight: ['100', '200',] })
 
 export const metadata = {
   title: 'موقع الجامعات الخاصة',

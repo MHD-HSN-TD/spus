@@ -30,8 +30,8 @@ export default async function Home() {
           src='/images/unii.jpg'
           className="max-w-sm rounded-lg  w-3/4 lg:mr-10 my-2"
           alt='hero section'
-          width={380}
-          height={380}
+          width={400}
+          height={400}
           blurDataURL={myBlurDataUrl}
           placeholder="blur" // Optional blur-up while loading
           priority

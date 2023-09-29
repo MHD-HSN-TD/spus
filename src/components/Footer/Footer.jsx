@@ -2,6 +2,7 @@ import Image from "next/image"
 import NavBarLinks from "../navBar/NavBarLinks"
 import { social } from "./socail"
 import SocialIcons from "../SocialIcons/SocialIcons"
+import Link from "next/link"
 
 const Footer = () => {
     const socialMediaData = {
@@ -22,7 +23,9 @@ const Footer = () => {
     return (
         <footer className="footer lg:p-5 p-4 bg-neutral text-neutral-content">
             <div>
-                <Image src="/images/footer_img 1.png" alt="logo" width={125} height={125} className="w-auto h-auto py-5" />
+                <Link href={'/'}>
+                    <Image src="/images/footer_img 1.png" alt="logo" width={180} height={180} className="w-auto h-auto py-5" />
+                </Link>
                 <p className="font-bold">كل الحقوق محفوظة    2023 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p className="font-bold"> لمزيد من التفاصيل : </p>
