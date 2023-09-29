@@ -25,7 +25,7 @@ const NavBar = () => {
                 </div>
 
                 <div className="navbar-end hidden lg:flex me-10  ">
-                    <ul className="menu menu-horizontal px-3 opacity-90 hover:opacity-100">
+                    <ul className="menu menu-horizontal px-3 opacity-950 hover:opacity-100">
                         <NavBarLinks />
                     </ul>
                     <ThemeChanger></ThemeChanger>
