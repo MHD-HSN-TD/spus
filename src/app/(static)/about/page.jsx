@@ -19,7 +19,7 @@ const about = () => {
                     <h1 className="lg:text-2xl text-lg text-warning my-4 font-semibold ">من<span className=""> نحن </span> :</h1>
                     <h3 className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</h3>
                 </div>
-                <Image src={'/images/about.png'} width={500} height={500} alt="about us" className="lg:mr-10 mx-auto" />
+                <Image src={'/images/about.jpg'} width={500} height={500} alt="about us" className="lg:mr-10 mx-auto mt-20 rounded-md shadow-md" />
             </div>
             {/* -------------Header ends------------- */}
 

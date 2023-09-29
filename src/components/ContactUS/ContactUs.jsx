@@ -4,7 +4,7 @@ const ContactUs = ({ src, title, caption, Email, Phone1, Phone2, address }) => {
     return (
         <div className="lg:p-10 p-5">
             <div className=" text-center ">
-                <Image className='my-3 rounded-3xl mx-auto w-16 h-w-16 ' src={src} width={140} height={140}></Image>
+                <Image className='my-3 rounded mx-auto w-16 h-w-16 text-white ' src={src} width={140} height={140} ></Image>
                 <h2 className=" text-xl capitalize font-semibold text-warning">{title}</h2>
                 {Email && <div className="grid gap-1">
                     <a href={`mailto:${Email}`}>{Email}</a>

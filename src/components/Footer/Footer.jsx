@@ -22,7 +22,7 @@ const Footer = () => {
     return (
         <footer className="footer lg:p-5 p-4 bg-neutral text-neutral-content">
             <div>
-                <Image src="/images/footer_img.png" alt="logo" width={126} height={126} className="w-auto h-auto" />
+                <Image src="/images/footer_img 1.png" alt="logo" width={125} height={125} className="w-auto h-auto py-5" />
                 <p className="font-bold">كل الحقوق محفوظة    2023 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p className="font-bold"> لمزيد من التفاصيل : </p>
