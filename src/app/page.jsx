@@ -3,7 +3,10 @@ import Link from 'next/link';
 // import uni from '../../public/images/unii.png';
 import getBase64 from '@/components/placeHolder';
 
-
+export const metadata = {
+  title: 'موقع الجامعات السويةالخاصة',
+  description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
+}
 export default async function Home() {
   const myBlurDataUrl = await getBase64('http://localhost:3000/images/unii.jpg')
 
