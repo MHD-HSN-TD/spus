@@ -4,7 +4,7 @@ import Link from 'next/link';
 import getBase64 from '@/components/placeHolder';
 
 export const metadata = {
-  title: 'موقع الجامعات السويةالخاصة',
+  title: 'موقع الجامعات السورية الخاصة',
   description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
 }
 export default async function Home() {
