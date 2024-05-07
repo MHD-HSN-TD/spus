@@ -26,7 +26,7 @@ const Footer = () => {
                 <Link href={'/'}>
                     <Image src="/images/footer_img 1.png" alt="logo" width={180} height={180} className="w-auto h-auto py-5" />
                 </Link>
-                <p className="font-bold">كل الحقوق محفوظة    2023 <span> ©</span> </p>
+                <p className="font-bold">كل الحقوق محفوظة    2024 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p className="font-bold"> لمزيد من التفاصيل : </p>
                     <p className=""><a className="text-gray-50 " href={`https://wa.me/963967586966`} target='_blank'> MHD Hasn AL-Khalil Tadmori </a></p>
