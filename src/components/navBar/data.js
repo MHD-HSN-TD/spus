@@ -14,16 +14,11 @@ const links = [
     name: "حول الموقع ",
     href: "/about",
   },
-  // {
-  //   id: 2,
-  //   name: "المدونة",
-  //   href: "/blog",
-  // },
-  // {
-  //   id: 4,
-  //   name: "نواصل معنا",
-  //   href: "/contact",
-  // },
+  {
+    id: 4,
+    name: "إستشارات",
+    href: "/consulting",
+  },
 ];
 
 export default links;

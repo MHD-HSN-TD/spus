@@ -1,12 +1,9 @@
 import Link from 'next/link'
 import NavBarLinks from './NavBarLinks'
 import NavBarDropDown from './navBarDropDown'
-import { Montserrat } from 'next/font/google'
-import Btn from '../elements/Btn'
 import ThemeChanger from '@/components/Provider/ThemChanger'
 
 
-const montserrat = Montserrat({ subsets: ['latin'], weight: ["300"] })
 
 const NavBar = () => {
 

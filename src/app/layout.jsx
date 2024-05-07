@@ -5,6 +5,7 @@ import { Providers } from '@/components/Provider/Providers'
 import { ProviderState } from '@/components/ProviderState/ProviderState'
 import Footer from '@/components/Footer/Footer'
 import NavBar from '@/components/navBar/NavBar'
+import FloatingWhatsAppBtn from '@/components/FloatingWhatsApp/FloatingWhatsAppBtn';
 
 
 // const ciaro = Cairo({ subsets: ['arabic'], weight: ['400'] })
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
             <NavBar />
             {children}
             <Analytics />
+            <FloatingWhatsAppBtn />
             <Footer />
           </Providers>{/* end of sweitch theme */}
 
