@@ -16,12 +16,13 @@ const FloatingWhatsAppBtn = () => {
     return (
         <div
             //to control the className conditinaly
-            className={` ${clsx(pageName && ' hidden')} float animate-bounce animate-infinite fixed w-20 h-20
-            md:bottom-16
-            md:left-8 bottom-16 left-3`} >
+            className={` ${clsx(pageName && ' hidden')} float animate-bounce animate-infinite fixed
+            md:w-20 md:h-20 md:bottom-16 md:left-8
+            bottom-16 left-3 w-20
+            `} >
             <Link href="/consulting" className='text-center'>
-                <h3 className='text-warning'>إحصل على أستشارتك الان !</h3>
-                <Image class="fa fa-whatsapp mt-4"
+                <h3 className='text-warning font-bold'>إحصل على أستشارتك الان !</h3>
+                <Image class=" m-2"
                     src={'/images/icons/whatsapp.png'}
                     alt='whatsApp icon'
                     width={60}
