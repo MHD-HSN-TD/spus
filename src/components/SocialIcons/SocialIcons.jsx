@@ -30,7 +30,6 @@ const SocialIcons = ({ name, image, about, person, whatsapp, facebook, telegram,
         // return "unknown";
     }
 
-    const mobile = getMobileOperatingSystem()
     const icons = {
         facebook: "/images/icons/facebook.png",
         linkedIn: "/images/icons/linkedin.png",

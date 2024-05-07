@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { social } from '../Footer/socail'
 import SocialIcons from '../SocialIcons/SocialIcons'
-import { team } from '@/app/(static)/about/about'
 
 const CardAbout = ({ name, image, about, person, facebook, telegram, linkedIn, whatsapp, github, email, phone }) => {
 

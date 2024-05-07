@@ -16,13 +16,13 @@ const NavBarLinks = () => {
         },
         {
             id: 3,
-            name: "حول الموقع ",
-            href: "/about",
+            name: "إستشارات",
+            href: "/consulting",
         },
         {
             id: 4,
-            name: "إستشارات",
-            href: "/consulting",
+            name: "حول الموقع ",
+            href: "/about",
         },
     ];
 
