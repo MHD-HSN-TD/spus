@@ -41,7 +41,7 @@ const Uni = (props) => {
     // console.log(date())
     const idOfPage = props.params.uni_id
     let uniAcronym = ''
-    console.log(idOfPage)
+    // console.log(idOfPage)
 
     const layoutOfUniv = universities.map(uni => (uni.id == idOfPage) && <div className="  " key={uni.id} >
         <div className=" ">

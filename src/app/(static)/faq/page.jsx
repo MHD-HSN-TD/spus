@@ -1,4 +1,5 @@
-
+'use client'
+import Form from "@/components/Form/Form"
 
 export const metadata = {
     title: ' الاستشارات',
@@ -33,6 +34,11 @@ const FAQ = () => {
                             >اضغط للإنتقال الى المحادثة</button>
                         </a>
                     </div>
+                </div>
+            </div>
+            <div className="  lg:px-32 p-10 my-8  ">
+                <div>
+                    {/* <Form></Form> */}
                 </div>
             </div>
         </section>

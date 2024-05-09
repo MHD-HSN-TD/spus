@@ -8,6 +8,7 @@ const NavBarLinks = () => {
         { id: 2, name: "الجامعات", href: "/unis" },
         { id: 3, name: "إستشارات", href: "/consulting" },
         { id: 4, name: "حول الموقع ", href: "/about" },
+        { id: 5, name: "الأسئلة الشائعة ", href: "/faq" },
     ];
 
     return (
