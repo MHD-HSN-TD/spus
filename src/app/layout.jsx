@@ -33,17 +33,20 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${alexandria.className} bg-default transition-all duration-600 p-0 m-0  `}>
 
-        <ProviderState>{/* global stateMangment start */}
 
+        <ProviderState>{/* global stateMangment start */}
           <Providers>{/* sweitch theme start */}
+
             <NavBar />
             {children}
             <Analytics />
             <FloatingWhatsAppBtn />
             <Footer />
-          </Providers>{/* end of sweitch theme */}
 
+
+          </Providers>{/* end of sweitch theme */}
         </ProviderState>{/* end of global stateMangment  */}
+
 
       </body>
     </html>

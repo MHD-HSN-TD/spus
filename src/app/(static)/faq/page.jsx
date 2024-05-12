@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import Form from "@/components/Form/Form"
 
 export const metadata = {

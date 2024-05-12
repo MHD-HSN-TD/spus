@@ -1,14 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link';
 // import uni from '../../public/images/unii.png';
-import getBase64 from '@/components/placeHolder';
 
 export const metadata = {
   title: 'موقع الجامعات السورية الخاصة',
   description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
 }
 export default async function Home() {
-  const myBlurDataUrl = await getBase64('http://localhost:3000/images/unii.jpg')
 
   const SubTitle = ` أهلا وسهلا بك في SPUS
 مصدرك النهائي للمعلومات حول الجامعات الخاصة في سوريا! نحن فريق من رواد الأعمال ملتزمون بتمكين الطلاب بالمعرفة التي يحتاجونها لاتخاذ قرارات مستنيرة حول تعليمهم العالي. في منظرة التعليمية المتطورة بسرعة، يمكن أن يكون العثور على الجامعة المناسبة مهمة مربكة. هذا هو المكان الذي نأتي من أجله.`;
@@ -35,8 +33,8 @@ export default async function Home() {
           alt='hero section'
           width={400}
           height={400}
-          blurDataURL={myBlurDataUrl}
-          placeholder="blur" // Optional blur-up while loading
+          // blurDataURL={myBlurDataUrl}
+          // placeholder="blur" // Optional blur-up while loading
           priority
         />
       </div>

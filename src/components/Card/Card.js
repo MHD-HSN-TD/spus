@@ -64,7 +64,7 @@ const Card = ({
 
   const cardVertical = (
     <div className={`card  bg-secondary shadow-xl w-auto `}>
-      <figure className="max-w-xs max-h-80 m-1 lg:py-1 py-1 m-auto">
+      <figure className="max-w-xs max-h-80  lg:py-1 py-1 m-auto">
         <Image
           src={image}
           alt="Movie"
