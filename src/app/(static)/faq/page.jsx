@@ -9,22 +9,22 @@ const whoISUs = ` فيما يلي بعض الاسئلة الشائعة والت�
 // the Questions content
 const Ques = [
     {
-        id: 0,
+        id: 1,
         ques: "هل يحيى يحب حسن",
         answer: "ممكن (:"
     }
     , {
-        id: 0,
+        id: 2,
         ques: "هل حسن يحب يحيى",
         answer: "بالتأكيــــــــــــد ♥"
     }
     , {
-        id: 0,
+        id: 3,
         ques: "هل حسن يحب يحيى",
         answer: "بالتأكيــــــــــــد ♥"
     }
     , {
-        id: 0,
+        id: 4,
         ques: "هل حسن يحب يحيى",
         answer: "بالتأكيــــــــــــد ♥"
     }
@@ -37,7 +37,7 @@ const FAQ = () => {
 
 
             {/* -------------Header------------- */}
-            <div className="flex lg:flex-row flex-col-reverse   justify-center items-center lg:px-32 px-10  ">
+            <div className="lg:px-28 lg:py-20 p-10  ">
                 <div>
                     <h1 className="lg:text-2xl text-lg text-warning my-4 font-semibold ">الإسئلة الشائعة :</h1>
                     <h3 className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</h3>
@@ -56,7 +56,7 @@ const FAQ = () => {
                         key={ques.id}>
                         <input type="checkbox" />
                         <div className="collapse-title text-xl font-medium">
-                            {ques.ques}
+                            {`${ques.id}.  ${ques.ques} ؟`}
                         </div>
                         <div className="collapse-content">
                             <p>{ques.answer}</p>
