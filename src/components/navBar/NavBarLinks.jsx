@@ -7,8 +7,8 @@ const NavBarLinks = () => {
         { id: 1, name: "الرئيسية", href: "/" },
         { id: 2, name: "الجامعات", href: "/unis" },
         { id: 3, name: "إستشارات", href: "/consulting" },
-        { id: 4, name: "حول الموقع ", href: "/about" },
-        { id: 5, name: "الأسئلة الشائعة ", href: "/faq" },
+        { id: 4, name: "الأسئلة الشائعة ", href: "/faq" },
+        { id: 5, name: "حول الموقع ", href: "/about" },
     ];
 
     return (
