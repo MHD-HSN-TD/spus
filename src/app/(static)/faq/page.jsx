@@ -1,11 +1,34 @@
-// 'use client'
-import Form from "@/components/Form/Form"
 
 export const metadata = {
     title: ' الاستشارات',
     description: 'الموقع الأول في سورية للجامعات السورية الخاصة الذي يقدم استشارات حول التسجيل ',
 }
 const whoISUs = ` فيما يلي بعض الاسئلة الشائعة والتي قد ترادوكم `;
+
+
+// the Questions content
+const Ques = [
+    {
+        id: 0,
+        ques: "هل يحيى يحب حسن",
+        answer: "ممكن (:"
+    }
+    , {
+        id: 0,
+        ques: "هل حسن يحب يحيى",
+        answer: "بالتأكيــــــــــــد ♥"
+    }
+    , {
+        id: 0,
+        ques: "هل حسن يحب يحيى",
+        answer: "بالتأكيــــــــــــد ♥"
+    }
+    , {
+        id: 0,
+        ques: "هل حسن يحب يحيى",
+        answer: "بالتأكيــــــــــــد ♥"
+    }
+]
 
 
 const FAQ = () => {
@@ -28,16 +51,18 @@ const FAQ = () => {
 
             <div className="   ">
                 <div className=" lg:p-28 p-10  ">
-                    <div className="collapse bg-secondary lg:my-5 my-2">
+                    {Ques.map(ques => <div
+                        className="collapse bg-secondary lg:my-5 my-2"
+                        key={ques.id}>
                         <input type="checkbox" />
                         <div className="collapse-title text-xl font-medium">
-                            هل يحيى يحب حسن ؟
+                            {ques.ques}
                         </div>
                         <div className="collapse-content">
-                            <p>ممكن :)</p>
+                            <p>{ques.answer}</p>
                         </div>
-                    </div>
-                    <div className="collapse bg-secondary lg:my-5 my-2">
+                    </div>)}
+                    <div className="collapse bg-base-200 lg:my-5 my-2">
                         <input type="checkbox" />
                         <div className="collapse-title text-xl font-medium">
                             هل يحيى يحب حسن ؟
@@ -49,11 +74,11 @@ const FAQ = () => {
                 </div>
             </div>
 
+
+
+
+
         </section>
-
-
-
-
     )
 }
 
