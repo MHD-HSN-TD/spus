@@ -1,9 +1,9 @@
-
+//TODO: edit the data 
 export const metadata = {
-    title: ' الاستشارات',
-    description: 'الموقع الأول في سورية للجامعات السورية الخاصة الذي يقدم استشارات حول التسجيل ',
+    title: ' الاسئلة الشائعة',
+    description: 'فيما يلي بعض الاسئلة الشائعة والتي قد ترادوكم  ',
 }
-const whoISUs = ` فيما يلي بعض الاسئلة الشائعة والتي قد ترادوكم `;
+const content = ` فيما يلي بعض الاسئلة الشائعة والتي قد ترادوكم `;
 
 
 // the Questions content
@@ -40,7 +40,7 @@ const FAQ = () => {
             <div className="lg:px-28 lg:py-20 p-10  ">
                 <div>
                     <h1 className="lg:text-2xl text-lg text-warning my-4 font-semibold ">الإسئلة الشائعة :</h1>
-                    <h3 className="lg:text-2xl text-sm font-medium leading-loose text-justify">{whoISUs}</h3>
+                    <h3 className="lg:text-2xl text-sm font-medium leading-loose text-justify">{content}</h3>
                 </div>
             </div>
 
