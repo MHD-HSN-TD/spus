@@ -17,6 +17,8 @@ export function AnimationProvider({ children }) {
             // transition={{ type: "easeInOut", duration: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
+
+
         >
             {children}
         </motion.main>

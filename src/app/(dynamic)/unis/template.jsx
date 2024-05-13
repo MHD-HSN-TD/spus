@@ -11,12 +11,12 @@ export function AnimationProvider({ children }) {
 
     return (
         <motion.main
-            // variants={variants}
-            // initial="hidden"
-            // animate="enter"
-            // transition={{ type: "easeInOut", duration: 1 }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            variants={variants}
+            initial="hidden"
+            animate="enter"
+            // whileInView="enter"
+            transition={{ type: "easeInOut", duration: 0.75 }}
+
         >
             {children}
         </motion.main>

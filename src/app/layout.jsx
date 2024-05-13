@@ -9,7 +9,7 @@ import FloatingWhatsAppBtn from '@/components/FloatingWhatsApp/FloatingWhatsAppB
 
 
 // const ciaro = Cairo({ subsets: ['arabic'], weight: ['400'] })
-const alexandria = Alexandria({ subsets: ['arabic'], weight: ['100', '200',] })
+const alexandria = Alexandria({ subsets: ['arabic'], weight: ['100', '200'] })
 
 export const metadata = {
   title: 'موقع الجامعات الخاصة',
