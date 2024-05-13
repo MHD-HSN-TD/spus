@@ -31,10 +31,12 @@ const ShowUnis = () => {
                                 key={el.id}
                                 initial={{ opacity: 0, x: -3, y: 0 }}
                                 whileInView={{ opacity: 1, x: 0, y: 0 }}
-                                transition={{ ease: "circInOut", duration: 0.5 }} >
+                                transition={{ ease: "circInOut", duration: 0.5 }}
                                 whileHover={{
-                                    scale: 1.03, transition: { duration: 0.5 },
+                                    scale: 1.03,
+                                    transition: { duration: 0.5 },
                                 }}
+                            >
 
                                 <Link href={`/unis/${el.id}`} id={el.id} key={el.id}>
                                     <Card
