@@ -1,4 +1,4 @@
-import { Alexandria, Cairo } from 'next/font/google'
+import { Alexandria } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import { Providers } from '@/components/Provider/Providers'
@@ -8,7 +8,6 @@ import NavBar from '@/components/navBar/NavBar'
 import FloatingWhatsAppBtn from '@/components/FloatingWhatsApp/FloatingWhatsAppBtn';
 
 
-// const ciaro = Cairo({ subsets: ['arabic'], weight: ['400'] })
 const alexandria = Alexandria({ subsets: ['arabic'], weight: ['100', '200'] })
 
 export const metadata = {
@@ -31,7 +30,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
 
       </head>
-      <body className={`${alexandria.className} bg-default transition-all duration-600 p-0 m-0  `}>
+      <body className={`${alexandria.className} bg-default transition-all duration-600 p-0 m-0 `} >
 
 
         <ProviderState>{/* global stateMangment start */}
