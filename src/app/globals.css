@@ -11,3 +11,43 @@ body::-webkit-scrollbar-thumb {
     border-radius: 30px;
     opacity: 0.5;
 }
+
+
+/*Tablets [601px -> 1200px]*/
+
+
+/* @media only screen and (max-width: 1200px) {
+} */
+
+
+/*Big smartphones [426px -> 600px]*/
+
+
+/* @media only screen and (max-width: 600px) {
+} */
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+    body::-webkit-scrollbar {
+        background-color: #111827;
+        width: 2px;
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: #fbbd23;
+        border-radius: 30px;
+        opacity: 0.5;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    /*Small smartphones [325px -> 425px]*/
+    body::-webkit-scrollbar {
+        background-color: #111827;
+        width: 2px;
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: #fbbd23;
+        border-radius: 30px;
+        opacity: 0.5;
+    }
+}
