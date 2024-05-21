@@ -59,21 +59,19 @@ const FAQ = () => {
 
 
 
-            <div className="   ">
-                <div className=" lg:p-28 p-10  ">
-                    {Ques.map(ques => <div
-                        className="collapse bg-secondary lg:my-5 my-2"
-                        key={ques.id}>
-                        <input type="checkbox" />
-                        <div className="collapse-title text-xl font-medium ">
-                            {`${ques.id}.  ${ques.ques} ؟`}
-                        </div>
-                        <div className="collapse-content">
-                            <p className="text-warning">{ques.answer}</p>
-                        </div>
-                    </div>)}
+            <div className=" lg:p-28 p-10  ">
+                {Ques.map(ques => <div
+                    className="collapse bg-secondary lg:my-5 my-2"
+                    key={ques.id}>
+                    <input type="checkbox" />
+                    <div className="collapse-title text-xl font-medium ">
+                        {`${ques.id}.  ${ques.ques} ؟`}
+                    </div>
+                    <div className="collapse-content">
+                        <p className="text-warning">{ques.answer}</p>
+                    </div>
+                </div>)}
 
-                </div>
             </div>
 
 

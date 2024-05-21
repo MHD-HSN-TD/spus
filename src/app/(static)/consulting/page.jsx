@@ -30,10 +30,11 @@ const about = () => {
                     <div className="lg:text-2xl text-center font-medium leading-loose ">
                         <p>{whoISUs}</p>
 
-                        <a href={`https://wa.me/${whatsappNo}`} target='_blank'>
+                        {/* <a href={`https://wa.me/${whatsappNo}`} target='_blank'> */}
+                        <a href={"https://forms.gle/LZXbwcqbcEq6MF618"} target='_blank'>
                             <button className="btn btn-wide my-8 bg-accent hover:bg-success transition-all duration-700
                             text-white hover:text-black hover:w-72 "
-                            >اضغط للإنتقال الى المحادثة</button>
+                            >اضغط  هنا لجمع المعلومات</button>
                         </a>
                     </div>
                 </div>
