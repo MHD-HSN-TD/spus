@@ -13,6 +13,7 @@ const alexandria = Alexandria({ subsets: ['arabic'], weight: ['100', '200'] })
 export const metadata = {
   title: 'موقع الجامعات الخاصة',
   description: 'الموقع الأول في سورية للجامعات السورية الخاصة',
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 }
 
 export default function RootLayout({ children }) {

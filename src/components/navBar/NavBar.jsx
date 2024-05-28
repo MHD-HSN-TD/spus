@@ -14,12 +14,12 @@ const NavBar = () => {
 
                 <div className="navbar-start">
                     <NavBarDropDown />
-                    <Link href={'/'}
+                    <Link
+                        href={'/'}
                         className=" btn btn-ghost normal-case lg:text-xl   "
                     >موقع الجامعات السورية الخاصة</Link>
                 </div>
-                <div>
-                </div>
+
 
                 <div className="navbar-end hidden lg:flex me-10  ">
                     <ul className="menu menu-horizontal px-3 opacity-950 hover:opacity-100">
