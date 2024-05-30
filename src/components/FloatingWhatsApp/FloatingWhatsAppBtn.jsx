@@ -17,7 +17,7 @@ const FloatingWhatsAppBtn = () => {
         <div
             //to control the className conditinaly
             className={` ${clsx(isConsulte && ' hidden')} float
-            animate-shake animate-twice animate-duration-[1500ms] animate-ease-in animate-alternate-reverse animate-fill-both    
+           animate-pulse duration-[2000ms] ease-in     
             fixed bg-warning rounded
             md:w-20  md:bottom-10 md:left-8
             bottom-16 left-3 w-16
