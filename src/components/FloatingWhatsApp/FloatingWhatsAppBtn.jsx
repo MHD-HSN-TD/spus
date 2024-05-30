@@ -11,23 +11,25 @@ const FloatingWhatsAppBtn = () => {
     // console.log(pathName)
 
     // to make sure if the page is the 'consulting' and if it is so return TRUE 
-    const pageName = pathName === "/consulting" && true
+    const isConsulte = pathName === "/consulting" && true
 
     return (
         <div
             //to control the className conditinaly
-            className={` ${clsx(pageName && ' hidden')} float animate-bounce animate-infinite fixed
-            md:w-20 md:h-20 md:bottom-16 md:left-8
-            bottom-16 left-3 w-20
+            className={` ${clsx(isConsulte && ' hidden')} float
+            animate-shake animate-twice animate-duration-[1500ms] animate-ease-in animate-alternate-reverse animate-fill-both    
+            fixed bg-warning rounded
+            md:w-20  md:bottom-10 md:left-8
+            bottom-16 left-3 w-16
             `} >
             <Link href="/consulting" className='text-center'>
-                <h3 className='text-warning font-bold'>إحصل على أستشارتك الان !</h3>
-                <Image class=" m-2"
+                <h3 className='text-black font-semibold text-sm lg:text-lg p-2'>إحصل على أستشارتك الان !</h3>
+                {/* <Image class=" m-2"
                     src={'/images/icons/whatsapp.png'}
                     alt='whatsApp icon'
-                    width={60}
-                    height={60}
-                ></Image>
+                    width={`${40}`}
+                    height={`${40}`}
+                ></Image> */}
             </Link>
         </div >
     )
