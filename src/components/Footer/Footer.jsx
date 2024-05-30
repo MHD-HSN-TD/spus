@@ -29,12 +29,12 @@ const Footer = () => {
                 <p className="font-bold">كل الحقوق محفوظة    2024 <span> ©</span> </p>
                 <div className="flex gap-3">
                     <p className="font-bold"> لمزيد من التفاصيل : </p>
-                    <p className=""><a className="text-gray-50 " href={`https://wa.me/963967586966`} target='_blank'> MHD Hasn AL-Khalil Tadmori </a></p>
+                    <p className=""><a className="text-warning " href={`https://wa.me/963967586966`} target='_blank'> MHD Hasn AL-Khalil Tadmori </a></p>
                 </div>
             </div>
             {/* //#-----links start------- */}
             <div>
-                <span className="footer-title">Links</span>
+                <span className="footer-title">الروابط</span>
                 <div className="grid  gap-4 auto-cols-auto	">
                     <NavBarLinks />
                 </div>
@@ -42,7 +42,7 @@ const Footer = () => {
             {/* //#-----links end------- */}
             {/* //?-----social start------- */}
             <div>
-                <span className="footer-title">Social</span>
+                <span className="footer-title">الروابط الاجتماعية</span>
                 <div className="flex  gap-4">
                     <SocialIcons
                         facebook={socialMediaData.facebook}
