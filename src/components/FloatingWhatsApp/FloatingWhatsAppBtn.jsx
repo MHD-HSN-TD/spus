@@ -20,7 +20,7 @@ const FloatingWhatsAppBtn = () => {
             animate-pulse duration-[2000ms] ease-in     
             fixed bg-warning rounded
             md:w-20  md:bottom-10 md:left-8
-            bottom-10 left-3 w-16
+            bottom-6 left-3 w-16
             `} >
             <Link href="/consulting" className='text-center'>
                 <h3 className='text-black font-semibold text-sm lg:text-lg p-2'>إحصل على أستشارتك الان !</h3>
