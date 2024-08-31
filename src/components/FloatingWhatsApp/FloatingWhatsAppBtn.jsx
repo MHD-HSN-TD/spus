@@ -23,10 +23,9 @@ const FloatingWhatsAppBtn = () => {
             fixed 
             md:w-20  md:bottom-10 md:left-8
             bottom-6 left-3 w-16
-            animate-pulse duration-[3000ms] ease-in 
+            ${styles.bounce_out_bottom}
             `} >
-            {/* ${styles.bounce_out_bottom} */}
-
+            {/*             animate-pulse duration-[3000ms] ease-in */}
             <Link href="/consulting" className='text-center'>
                 <h3 className='text-black font-semibold text-sm lg:text-lg p-2'>إحصل على أستشارتك الان !</h3>
                 {/* <Image class=" m-2"
