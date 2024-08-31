@@ -145,10 +145,10 @@ const FAQ = () => {
 
 
             {/* -------------Header------------- */}
-            <div className="lg:px-28 lg:py-14 p-10  ">
+            <div className="lg:px-28 lg:py-14 p-10  lg:text-2xl text-base  ">
                 <div>
-                    <h1 className="lg:text-2xl text-lg text-warning my-1 font-semibold ">الإسئلة الشائعة :</h1>
-                    <h3 className="lg:text-2xl text-sm font-medium leading-loose text-justify">{content}</h3>
+                    <h1 className=" text-warning my-1 font-semibold ">الإسئلة الشائعة :</h1>
+                    <h3 className=" font-medium leading-loose text-justify">{content}</h3>
                 </div>
             </div>
 
@@ -157,12 +157,12 @@ const FAQ = () => {
 
 
 
-            <div className=" lg:px-28 lg:py-0 p-10  ">
+            <div className=" lg:px-28 lg:py-0 p-10 text-base      ">
                 {Ques.map(ques => <div
                     className="collapse bg-secondary lg:my-5 my-2"
                     key={ques.id}>
                     <input type="checkbox" />
-                    <div className="collapse-title text-xl font-medium ">
+                    <div className="collapse-title lg:text-xl font-medium ">
                         {`${ques.id}.  ${ques.ques} ؟`}
                     </div>
                     <div className="collapse-content">
