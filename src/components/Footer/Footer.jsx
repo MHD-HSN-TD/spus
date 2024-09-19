@@ -10,13 +10,13 @@ const Footer = () => {
         name: "موقع الجامعات السورية الخاصة",
         about: "",
         imageHref: "",
-        phone: "+963967586966",
+        phone: "+963940504025",
         email: "info@spus.sy",
         facebook: "https://www.facebook.com/mhammad.tadomori",
         linkedIn: false,
         telegram: "https://t.me/HasnTD",
         github: false,
-        whatsapp: "963967586966",
+        whatsapp: "963940504025",
     };
 
 
