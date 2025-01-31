@@ -1,7 +1,7 @@
 //TODO: edit the data 
 export const metadata = {
     title: ' الاسئلة الشائعة',
-    description: 'اسئلة شائعة حول الجامعات السورية الخاصة  ',
+    description: 'اسئلة شائعة حول الجامعات السورية الخاصة a ',
 }
 const content = `  فيما يلي بعض الاسئلة الشائعة والتي قد ترادوكم والاجوبة عنها : `;
 

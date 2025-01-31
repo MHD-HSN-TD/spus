@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 
 export function AnimationProvider({ children }) {
     const variants = {
-        hidden: { opacity: 0, x: 0, y: 0 },
-        enter: { opacity: 1, x: 0, y: 0 },
+        hidden: { opacity: 0, x: -1, y: 0 },
+        enter: { opacity: 1, x: 2, y: 0 },
     }
 
 
@@ -15,11 +15,15 @@ export function AnimationProvider({ children }) {
             initial="hidden"
             animate="enter"
             // whileInView="enter"
-            transition={{ type: "easeInOut", duration: 0.75 }}
+            transition={{ type: "easeInOut", duration: 1 }}
+            viewport={{
+                margin: "-50px",
+                once: true
+            }}
 
         >
             {children}
-        </motion.main>
+        </motion.main >
     )
 
 

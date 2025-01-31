@@ -29,12 +29,19 @@ const ShowUnis = () => {
                             <motion.div
                                 id={el.id}
                                 key={el.id}
-                                initial={{ opacity: 0, x: -3, y: 0 }}
+                                initial={{ opacity: 0, x: 0, y: -10 }}
                                 whileInView={{ opacity: 1, x: 0, y: 0 }}
-                                transition={{ ease: "circInOut", duration: 0.5 }}
+                                transition={{ ease: "circInOut", duration: 0.75 }}
+                                viewport={{
+                                    margin: "-50px",
+                                    once: true
+                                }}
                                 whileHover={{
                                     scale: 1.03,
-                                    transition: { duration: 0.5 },
+                                    // x: 5,
+                                    // y: 5,
+
+                                    transition: { duration: 0.25 },
                                 }}
                             >
 
