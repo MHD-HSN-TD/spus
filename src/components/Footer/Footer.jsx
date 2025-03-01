@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Footer = () => {
     const socialMediaData = {
-        nameENG: "SPUS",
+        nameENG: "UniSy",
         name: "موقع الجامعات السورية الخاصة",
         about: "",
         imageHref: "",
