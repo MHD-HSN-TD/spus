@@ -29,7 +29,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7798355403314252"
+          crossorigin="anonymous"></script>
       </head>
       <body className={`${alexandria.className} bg-default transition-all duration-600 p-0 m-0 `} >
 
